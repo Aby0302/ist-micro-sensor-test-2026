@@ -1,0 +1,6 @@
+*.zip
+*.py
+__pycache__/
+camera_images/
+whatsapp_images/
+opencode.json
