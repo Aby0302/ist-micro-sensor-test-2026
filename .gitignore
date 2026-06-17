@@ -6,3 +6,7 @@ venv/
 node_modules/
 *.pyc
 *.zip
+*.heic
+*.jpg
+*.jpeg
+*.png
