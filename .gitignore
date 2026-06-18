@@ -10,3 +10,7 @@ node_modules/
 *.jpg
 *.jpeg
 *.png
+*.py
+camera_images/
+whatsapp_images/
+opencode.json

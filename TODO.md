@@ -9,7 +9,9 @@
 - [x] Explain what the project does.
 - [x] Explain how to run it.
 - [x] Find problems.
-- [ ] Create a safe fix plan.
-- [ ] Apply safe fixes only after explaining them.
+- [x] Create a safe fix plan.
+- [x] Apply safe fixes only after explaining them.
 - [ ] Run tests or validation commands if possible.
 - [ ] Show final git status and summary.
+- [x] .gitignore merge çakışmasını çöz.
+- [ ] Uzaktaki repodan pull/merge işlemini tamamla.
