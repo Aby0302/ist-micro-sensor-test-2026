@@ -117,3 +117,7 @@
   - Yalnızca bilgi bazındaki eşleşmelere yanıt verir
   - Eşleşmeyen sorulara güvenli düşüş mesajı gönderilir
   - Kesinlikle tahmini/stok/fiyat/rakip bilgisi verilmez
+- [x] IMAP yerine Exchange/Outlook API'ye geçildi (IMAP/POP yok):
+  - Yeni workflow: 📥 Exchange E-posta Yanıtları (2jYlcTyw208PbGJb)
+  - Schedule trigger (10 dk) + Outlook folderMessage.getAll + message.reply
+  - Eski IMAP workflow'ları arşivlendi
