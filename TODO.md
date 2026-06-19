@@ -112,3 +112,8 @@
 - [x] 📥 E-posta Yanıtları workflow'u eklendi (`d6J5U1y2MgRPk4RG`) — IMAP ile gelen yanıtları okur, müşteri aşamasını "ilgilendi"ye ilerletir.
 - [x] Kampanya workflow'u güncellendi — Reply-To başlığı ve `[IST-XXXXX]` takip kodu eklendi.
 - [x] Müşteri yanıtları artık otomatik algılanır ve pipeline güncellenir.
+- [x] İST Micro Bilgi Bazı oluşturuldu (ist_micro_bilgi_baz.json) — ürünler, SSS, pazarlama kuralları.
+- [x] E-posta Yanıtları workflow'u güncellendi (vUM9hYVkAEaboYfD):
+  - Yalnızca bilgi bazındaki eşleşmelere yanıt verir
+  - Eşleşmeyen sorulara güvenli düşüş mesajı gönderilir
+  - Kesinlikle tahmini/stok/fiyat/rakip bilgisi verilmez

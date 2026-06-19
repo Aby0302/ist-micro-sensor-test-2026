@@ -1,0 +1,120 @@
+{
+  "sirket": {
+    "ad": "IST Micro Teknoloji",
+    "merkez": "İstanbul, Türkiye",
+    "web": "www.istmicro.com.tr",
+    "eposta": "istmicro@istmicro.com.tr",
+    "sektor": "Endüstriyel Sensör Çözümleri",
+    "kisa_aciklama": "IST Micro Teknoloji, endüstriyel sensör çözümleri konusunda faaliyet gösteren İstanbul merkezli bir teknoloji şirketidir."
+  },
+  "urun_kategorileri": [
+    {
+      "id": "sicaklik_sensorleri",
+      "ad": "Sıcaklık Sensörleri",
+      "anahtar_kelimeler": ["pt100", "pt500", "pt1000", "pt200", "rtd", "sıcaklık", "temperature", "class a", "class b", "termokupl", "thermocouple"],
+      "aciklama": "Pt100, Pt500, Pt1000 ve PT200 RTD sıcaklık sensörleri. Class A ve Class B doğruluk sınıflarında, çeşitli gövde seçenekleriyle üretim.",
+      "alt_kategoriler": [
+        {"ad": "Pt100 Sensörler", "aciklama": "2x2 mm, 4 telli, Class B, max 260°C'ye kadar seçenekler"},
+        {"ad": "PT200 Sensörler", "aciklama": "Yıllık milyonlarca adet potansiyeli olan özel sensör çözümü"},
+        {"ad": "Özel Sıcaklık Sensörleri", "aciklama": "Müşteri spesifikasyonuna göre tasarım ve üretim"}
+      ]
+    },
+    {
+      "id": "basinc_sensorleri",
+      "ad": "Basınç Sensörleri",
+      "anahtar_kelimeler": ["basınç", "pressure", "bar", "psi", "316l", "chip", "sensör"],
+      "aciklama": "400 bar'a kadar özel basınç sensörü gövdeleri ve chip çözümleri. 316L paslanmaz çelik gövde seçeneği.",
+      "alt_kategoriler": [
+        {"ad": "Basınç Sensör Chip'leri", "aciklama": "Entegre basınç sensörü chip çözümleri"},
+        {"ad": "Özel Basınç Gövdeleri", "aciklama": "316L paslanmaz çelik, 400 bar'a kadar"}
+      ]
+    },
+    {
+      "id": "akis_sensorleri",
+      "ad": "Akış Sensörleri",
+      "anahtar_kelimeler": ["akış", "flow", "flow sensor", "debimeterre", "flowmeter"],
+      "aciklama": "Endüstriyel akış sensörü çözümleri. Çeşitli debi aralıklarında ve uygulamalarda kullanıma uygun."
+    },
+    {
+      "id": "mems_sensorler",
+      "ad": "MEMS Sensörler",
+      "anahtar_kelimeler": ["mems", "mikroelektromekanik", "ivme", "acceleration", "gyro", "jiroskop"],
+      "aciklama": "MEMS tabanlı sensör çözümleri. Endüstriyel ve otomotiv uygulamaları için."
+    },
+    {
+      "id": "ozel_sensor_cozumleri",
+      "ad": "Özel Sensör Çözümleri",
+      "anahtar_kelimeler": ["özel", "custom", "özel tasarım", "müşteri spesifik", "tailored", "prototip"],
+      "aciklama": "Müşteri ihtiyacına göre özel sensör tasarımı ve üretimi. Prototip çalışmaları ve seri üretim."
+    }
+  ],
+  "distributorler": [
+    {
+      "firma": "Sensor Technology Ltda.",
+      "ulke": "Brezilya",
+      "web": "www.sensor-technology.com.br",
+      "kisi": "Lucas Pereira",
+      "yetki": "IST MICRO Güney Amerika distribütörü"
+    },
+    {
+      "firma": "Trem Trading Co.",
+      "ulke": "Güney Kore",
+      "kisi": "S.R. Lee",
+      "yetki": "IST MICRO Asya distribütörü"
+    }
+  ],
+  "sss": [
+    {
+      "soru_anahtarlari": ["fiyat", "price", "teklif", "quote", "ne kadar", "maliyet", "cost"],
+      "cevap": "Ürünlerimizle ilgili fiyat bilgisi ve teklif için lütfen firma bilgileriniz ve talep ettiğiniz ürün detaylarıyla birlikte istmicro@istmicro.com.tr adresine e-posta gönderiniz. En kısa sürede size özel fiyat teklifi hazırlayalım."
+    },
+    {
+      "soru_anahtarlari": ["minumum", "minimum sipariş", "moq", "adet", "lot", "sipariş adedi"],
+      "cevap": "Minimum sipariş adedi ürün ve spesifikasyona göre değişmektedir. Detaylı bilgi için istmicro@istmicro.com.tr adresinden bizimle iletişime geçebilirsiniz."
+    },
+    {
+      "soru_anahtarlari": ["teslimat", "delivery", "kargo", "shipment", "ne zaman", "lead time", "süre"],
+      "cevap": "Teslimat süresi ürün ve sipariş adedine göre değişmektedir. Standart ürünlerde 2-6 hafta, özel tasarımlarda 8-12 hafta arasındadır. Kesin süre için teklif aşamasında bilgi verilmektedir."
+    },
+    {
+      "soru_anahtarlari": ["örnek", "sample", "numune", "prototip", "test", "deneme"],
+      "cevap": "Numune ve prototip talepleri değerlendirmeye alınmaktadır. Örnek talebiniz için ürün detaylarını ve uygulama bilgilerinizi istmicro@istmicro.com.tr adresine iletebilirsiniz."
+    },
+    {
+      "soru_anahtarlari": ["distribütör", "distributor", "bayii", "partner", "yetkili", "temsilci"],
+      "cevap": "IST Micro'nun Brezilya'da Sensor Technology Ltda. (www.sensor-technology.com.br) ve Güney Kore'de Trem Trading Co. olmak üzere iki distribütörü bulunmaktadır. Diğer bölgeler için doğrudan istmicro@istmicro.com.tr adresinden iletişime geçebilirsiniz."
+    },
+    {
+      "soru_anahtarlari": ["üretici", "manufacturer", "üretim", "production", "fabrika", "factory"],
+      "cevap": "IST Micro Teknoloji, İstanbul merkezli olup endüstriyel sensör çözümlerinin tasarım ve üretimini gerçekleştirmektedir. Özel sensör tasarımı ve seri üretim kapasitemiz bulunmaktadır."
+    },
+    {
+      "soru_anahtarlari": ["kalite", "quality", "sertifika", "certificate", "belge", "iso", "ce", "rohs"],
+      "cevap": "Ürünlerimiz ilgili endüstri standartlarına uygun olarak üretilmektedir. Kalite belgelerimiz ve sertifikalarımız hakkında detaylı bilgi için istmicro@istmicro.com.tr adresinden talepte bulunabilirsiniz."
+    },
+    {
+      "soru_anahtarlari": ["fuvar", "sensor+test", "sensor test", "nürnberg", "nuremberg", "stand", "fuar"],
+      "cevap": "Sensor+Test 2026 fuarına 9-11 Haziran 2026 tarihlerinde Nürnberg, Almanya'da katılım sağladık. Fuarda tanıştığımız firmalarla iletişim halindeyiz. Bir sonraki fuar katılımımız hakkında bilgi için web sitemizi takip edebilirsiniz."
+    },
+    {
+      "soru_anahtarlari": ["iletişim", "contact", "ulaşma", "phone", "telefon", "adres", "address"],
+      "cevap": "IST Micro Teknoloji'ye e-posta (istmicro@istmicro.com.tr) veya web sitemiz (www.istmicro.com.tr) üzerinden ulaşabilirsiniz. Merkez ofisimiz İstanbul, Türkiye'dedir."
+    },
+    {
+      "soru_anahtarlari": ["ürün kataloğu", "catalog", "datasheet", "teknik doküman", "katalog"],
+      "cevap": "Ürün kataloğumuz ve teknik dokümanlar için web sitemizi (www.istmicro.com.tr) ziyaret edebilir veya istmicro@istmicro.com.tr adresine talep gönderebilirsiniz."
+    },
+    {
+      "soru_anahtarlari": ["pt100", "pt1000", "pt500", "pt200", "rtd", "sıcaklık sensörü"],
+      "cevap": "Pt100/Pt500/Pt1000/PT200 RTD sıcaklık sensörlerimiz hakkında detaylı bilgi almak ve teklif talebinde bulunmak için ürün spesifikasyonlarınızı (çalışma aralığı, tolerans sınıfı, gövde tipi) istmicro@istmicro.com.tr adresine iletebilirsiniz."
+    }
+  ],
+  "cevaplanamaz_mesaj": "Sorunuzu ilgili teknik ekibimize ilettik. En kısa sürede size detaylı bilgi sağlayacağız. Acil talepleriniz için istmicro@istmicro.com.tr adresine doğrudan e-posta gönderebilirsiniz.",
+  "pazarlama_kisitlamalari": [
+    "Kesinlikle tahmini/stok bilgisi verilmez",
+    "Kesinlikle fiyat bilgisi verilmez, teklife yönlendirilir",
+    "Kesinlikle rakip firma yorumu yapılmaz",
+    "Kesinlikle teslim tarihi garantisi verilmez",
+    "Teknik özellikler için resmi dokümanlara yönlendirilir"
+  ]
+}
