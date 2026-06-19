@@ -1,0 +1,221 @@
+{
+  "name": "🔄 Takip & Sipariş Süreci",
+  "nodes": [
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000001",
+      "name": "Zamanlayıcı (Her Gün 09:00)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * 1-5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000002",
+      "name": "Pipeline Verisini Oku",
+      "type": "n8n-nodes-base.readBinaryFiles",
+      "typeVersion": 1,
+      "position": [200, 0],
+      "parameters": {
+        "filePath": "/mnt/downloads/sensors+test-2026/workflows/musteri_pipeline.json"
+      }
+    },
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000003",
+      "name": "JSON Parse Et",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [400, 0],
+      "parameters": {
+        "language": "python",
+        "code": "import json\n\npipeline = json.loads(items[0]['binary']['data']['data'])\nmusteriler = pipeline.get('musteriler', [])\n\n# Müşterileri aşamalarına göre filtrele\nresult = []\nfor m in musteriler:\n    if m.get('email'):\n        result.append({'json': m})\n\nreturn result"
+      }
+    },
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000004",
+      "name": "Aşamaya Göre Ayır",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 2,
+      "position": [600, 0],
+      "parameters": {
+        "dataType": "string",
+        "value1": "={{ $json[\"asama\"] }}",
+        "rules": [
+          { "value": "email_gonderildi", "outputKey": "email_gonderildi" },
+          { "value": "email_acildi", "outputKey": "email_acildi" },
+          { "value": "ilgilendi", "outputKey": "ilgilendi" },
+          { "value": "teklif_gonderildi", "outputKey": "teklif_gonderildi" }
+        ],
+        "fallbackOutputKey": "diger"
+      }
+    },
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000005",
+      "name": "3 Gün Geçmiş mi?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [800, -300],
+      "parameters": {
+        "conditions": {
+          "conditions": [
+            {
+              "id": "cond-bekleme",
+              "leftValue": "={{ $json[\"son_etkilesim\"] }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "isNotEmpty"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000006",
+      "name": "Hatırlatma E-postası Gönder",
+      "type": "n8n-nodes-base.smtp",
+      "typeVersion": 1,
+      "position": [1000, -400],
+      "parameters": {
+        "fromEmail": "noreply@istmicro.com.tr",
+        "fromName": "IST Micro Teknoloji",
+        "toEmail": "={{ $json[\"email\"] }}",
+        "subject": "={{ 'Hatırlatma: ' + $json['firma'] + ' görüşmemiz' }}",
+        "emailType": "html",
+        "message": "={{ 'Hatırlatma e-postası içeriği...' }}"
+      },
+      "credentials": {
+        "smtp": {
+          "id": "smtp-credential-id",
+          "name": "IST Micro SMTP"
+        }
+      }
+    },
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000007",
+      "name": "İlgilenen -> Teklif",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [800, 100],
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "yeni_asama",
+              "value": "teklif_gonderildi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000008",
+      "name": "Teklif E-postası Gönder",
+      "type": "n8n-nodes-base.smtp",
+      "typeVersion": 1,
+      "position": [1000, 100],
+      "parameters": {
+        "fromEmail": "noreply@istmicro.com.tr",
+        "fromName": "IST Micro Teknoloji",
+        "toEmail": "={{ $json[\"email\"] }}",
+        "subject": "={{ 'Teklif: ' + $json['firma'] + ' / ' + $json['talep'][:50] }}",
+        "emailType": "html",
+        "message": "={{ 'Teklif e-postası...' }}"
+      },
+      "credentials": {
+        "smtp": {
+          "id": "smtp-credential-id",
+          "name": "IST Micro SMTP"
+        }
+      }
+    },
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000009",
+      "name": "Sipariş Aşaması Bildirimi",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [800, 300],
+      "parameters": {
+        "language": "python",
+        "code": "# Sipariş aşamasına yaklaşan müşterileri bildir\nfor item in items:\n    data = item['json']\n    print(f\"SİPARİŞ ADAYI: {data['firma']} - {data['kisi']} - {data['email']}\")\n    print(f\"  Talep: {data['talep']}\")\n    print(f\"  Aşama: {data['asama']}\")\n\nreturn items"
+      }
+    },
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000010",
+      "name": "Pipeline'ı Kaydet",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [1200, 100],
+      "parameters": {
+        "command": "python3",
+        "commandArguments": "={{ '/mnt/downloads/sensors+test-2026/workflows/customer_pipeline.py ilerlet \"' + $json['firma'] + '\" ' + $json.get('yeni_asama', $json['asama']) }}"
+      }
+    },
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000011",
+      "name": "Sipariş Aşaması",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [600, 300],
+      "parameters": {}
+    },
+    {
+      "id": "c1d2e3f4-0001-4000-8000-000000000012",
+      "name": "Diğer (yeni/siparis)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [600, 500],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "c1d2e3f4-0001-4000-8000-000000000001": {
+      "main": [[{ "node": "c1d2e3f4-0001-4000-8000-000000000002", "type": "main", "index": 0 }]]
+    },
+    "c1d2e3f4-0001-4000-8000-000000000002": {
+      "main": [[{ "node": "c1d2e3f4-0001-4000-8000-000000000003", "type": "main", "index": 0 }]]
+    },
+    "c1d2e3f4-0001-4000-8000-000000000003": {
+      "main": [[{ "node": "c1d2e3f4-0001-4000-8000-000000000004", "type": "main", "index": 0 }]]
+    },
+    "c1d2e3f4-0001-4000-8000-000000000004": {
+      "main": [
+        [{ "node": "c1d2e3f4-0001-4000-8000-000000000005", "type": "main", "index": 0 }],
+        [{ "node": "c1d2e3f4-0001-4000-8000-000000000007", "type": "main", "index": 0 }],
+        [{ "node": "c1d2e3f4-0001-4000-8000-000000000011", "type": "main", "index": 0 }],
+        [{ "node": "c1d2e3f4-0001-4000-8000-000000000012", "type": "main", "index": 0 }],
+        [{ "node": "c1d2e3f4-0001-4000-8000-000000000012", "type": "main", "index": 0 }]
+      ]
+    },
+    "c1d2e3f4-0001-4000-8000-000000000005": {
+      "main": [
+        [{ "node": "c1d2e3f4-0001-4000-8000-000000000006", "type": "main", "index": 0 }],
+        []
+      ]
+    },
+    "c1d2e3f4-0001-4000-8000-000000000007": {
+      "main": [[{ "node": "c1d2e3f4-0001-4000-8000-000000000008", "type": "main", "index": 0 }]]
+    },
+    "c1d2e3f4-0001-4000-8000-000000000008": {
+      "main": [[{ "node": "c1d2e3f4-0001-4000-8000-000000000010", "type": "main", "index": 0 }]]
+    },
+    "c1d2e3f4-0001-4000-8000-000000000011": {
+      "main": [[{ "node": "c1d2e3f4-0001-4000-8000-000000000009", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": ["followup", "pipeline", "order"],
+  "active": false
+}

@@ -99,3 +99,7 @@
 - [x] Ana Excel'i doğru WTsensor kartıyla yeniden üret. (Yeni yedek 20260619-0425; #164 kırpımı 702x405 üretildi; Excel'e 165/165 görsel gömüldü, WTsensor L167 312x180.)
 - [x] WTsensor satırını ve toplam görsel sayısını doğrula. (PNG yalnız WTsensor kartını içeriyor; crop 702x405; Tum Kisiler satır 167, L167 görseli 312x180; toplam 165 gömülü görsel, 165 medya, eksik satır yok.)
 - [x] Son git durumunu tekrar göster. (git status: TODO.md ve ist_micro_contacts_firma_talep.xlsx değişti; untracked: LibreOffice lock dosyası ve yedekler 0343, 0355, 0403, 0412, 0415, 0425. diff stat: Excel 1.79 MB -> 5.60 MB, TODO +42 satır.)
+- [x] n8n workflow tasarımı — e-posta kampanyası, takip ve sipariş süreci. (3 workflow JSON: email_campaign, tracking_webhook, followup_pipeline)
+- [x] HTML e-posta şablonları (welcome, followup, offer) — email_templates/ klasöründe.
+- [x] Müşteri aşama takip sistemi (customer_pipeline.py) ve e-posta ile zenginleştirilmiş CSV (musteri_listesi_email.csv).
+- [x] Kurulum kılavuzu (workflows/SETUP.md).

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<body style="margin:0;padding:0;background-color:#f4f4f4;font-family:Arial,sans-serif">
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td align="center" style="padding:20px">
+<table width="600" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08)">
+<tr><td style="background:#b35c00;padding:24px 32px;text-align:center">
+<h1 style="color:#ffffff;margin:0;font-size:20px">Teklif — {{$json["Firma"]}}</h1>
+</td></tr>
+<tr><td style="padding:32px">
+<p style="font-size:16px;color:#333;line-height:1.6">Sayın <strong>{{$json["Kişi"]}}</strong>,</p>
+<p style="font-size:14px;color:#555;line-height:1.6">
+Sensor+Test 2026 fuarında görüştüğümüz <strong>{{$json["Ne istiyor"]}}</strong> talebinizle ilgili
+teknik şartname ve fiyat teklifimizi hazırladık.
+</p>
+<table style="width:100%;background:#f9f9f9;border-radius:6px;padding:16px;margin:16px 0">
+<tr><td style="font-size:13px;color:#555">
+<strong>Ürün/Çözüm:</strong> {{$json["Ne istiyor"]}}<br>
+<strong>Miktar:</strong> {{$json["Miktar/Tutar"]}}<br>
+<strong>Durum:</strong> Teklif hazır
+</td></tr>
+</table>
+<table cellpadding="0" cellspacing="0" style="margin:24px 0">
+<tr><td align="center" style="background:#b35c00;border-radius:4px;padding:12px 28px">
+<a href="{{$json["tracking_url"]}}&action=offer_view" style="color:#ffffff;text-decoration:none;font-size:15px;font-weight:bold">
+  Teklifi Görüntüle
+</a>
+</td></tr>
+</table>
+<p style="font-size:13px;color:#888;line-height:1.5">
+Teklif 30 gün geçerlidir. Sorularınız için lütfen bizimle iletişime geçin.
+</p>
+</td></tr>
+<tr><td style="background:#f8f8f8;padding:16px 32px;text-align:center;font-size:11px;color:#999">
+IST Micro Teknoloji — İstanbul, Türkiye<br>
+www.istmicro.com.tr
+</td></tr>
+</table>
+<img src="{{$json["tracking_pixel"]}}" width="1" height="1" style="display:block" alt=""/>
+</td></tr></table>
+</body>
+</html>

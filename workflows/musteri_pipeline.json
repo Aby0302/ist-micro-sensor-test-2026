@@ -1,0 +1,770 @@
+{
+  "son_guncelleme": "2026-06-19T10:06:08.328834",
+  "musteri_sayisi": 84,
+  "asama_dagilimi": {
+    "yeni": 84,
+    "email_gonderildi": 0,
+    "email_acildi": 0,
+    "ilgilendi": 0,
+    "teklif_gonderildi": 0,
+    "siparis_asamasi": 0
+  },
+  "musteriler": [
+    {
+      "firma": "BBSI Pte. Ltd.",
+      "kisi": "",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "FHR Anlagenbau GmbH",
+      "kisi": "Sven Häberlein",
+      "email": "",
+      "talep": "Sputter ile ilgili not",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "FHR Anlagenbau GmbH",
+      "kisi": "Francesco Giarratano",
+      "email": "",
+      "talep": "Sputter ile ilgili not",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "enelsan",
+      "kisi": "Muhammed Gökgöl",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "PPI Systems",
+      "kisi": "Brian Graydon",
+      "email": "",
+      "talep": "El yazısı notu belirsiz",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Heraeus Electronics GmbH & Co. KG",
+      "kisi": "Andreas Henning",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Sensor Technology Ltda.",
+      "kisi": "Luis Bombonatti",
+      "email": "",
+      "talep": "PT200 datasheet ve potansiyel PT200 tedariki (Yıllık birkaç milyon adet potansiyel)",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Sensor Technology Ltda.",
+      "kisi": "Lucas Pereira",
+      "email": "",
+      "talep": "PT200 datasheet ve potansiyel PT200 tedariki (Yıllık birkaç milyon adet potansiyel)",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "sensry GmbH",
+      "kisi": "Mario Grafe",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "UNITRONIC GmbH",
+      "kisi": "Salih Senel",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "De-Nau (Shanghai) Advanced Technology Ltd",
+      "kisi": "Dr. Zou Chuang-Min",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Fraunhofer IIS",
+      "kisi": "Pit Ritter",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "IceMOS Technology",
+      "kisi": "Hugh J Griffin",
+      "email": "",
+      "talep": "Pressure/press wire sensors notu",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Bosch",
+      "kisi": "Merve Akgün",
+      "email": "",
+      "talep": "MEMS solutions",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "GS Electronic GmbH & Co. KG",
+      "kisi": "Joachim Schuhmann",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Sense and Control",
+      "kisi": "Bayram Karakaya",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "SAMYOUNG S&C",
+      "kisi": "Namjoon Paek",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Hangzhou Multi IR Technology Co., Ltd",
+      "kisi": "Jing Lu",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "GfG Gesellschaft für Gerätebau mbH",
+      "kisi": "Rainer Krage",
+      "email": "",
+      "talep": "Flow sensor",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "GfG Gesellschaft für Gerätebau mbH",
+      "kisi": "Martin Gorek",
+      "email": "",
+      "talep": "Flow sensor",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "CS Instruments GmbH & Co. KG",
+      "kisi": "Michael Kromer",
+      "email": "",
+      "talep": "Flow sensor",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "DLR",
+      "kisi": "Marian Kraus",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "ifm prover gmbh",
+      "kisi": "Anton Faustmann",
+      "email": "",
+      "talep": "Flow sensors",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "H. Heinz Messwiderstände GmbH",
+      "kisi": "Fangzhou Zhao",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Danfoss A/S",
+      "kisi": "Carsten Christensen",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Sensor China Expo",
+      "kisi": "Zhong Haiyan",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "YAGEO Nexensos GmbH",
+      "kisi": "Ralph Meschkat",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "YAGEO Nexensos GmbH",
+      "kisi": "Dr. Andreas Schreiber",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "YAGEO Nexensos GmbH",
+      "kisi": "Axel Bergt",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Trem Trading Co.",
+      "kisi": "S R Lee",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Hotset GmbH",
+      "kisi": "Helge Meiritz",
+      "email": "",
+      "talep": "Pt100, Class B; dış çap 2x2 mm; maks. sıcaklık 260 C (50,000 adet)",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Analysis Sensors",
+      "kisi": "Aristidis Iacovou",
+      "email": "",
+      "talep": "Özel sensör gövdesi/uygulaması; Pt100; 316L; 400 bar (1,000 adet/yıl)",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "İLTER Savunma",
+      "kisi": "Yunus Ataş",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "DynaLabs",
+      "kisi": "Emre Burak Bilgücü",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "DynaLabs",
+      "kisi": "Murat Karadeniz",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Pavelsis",
+      "kisi": "Osman Eray Aksak",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Tualcom",
+      "kisi": "Abdurrahman Bor",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Nova Elektrik San. ve Tic. A.Ş.",
+      "kisi": "Suavi Atalay",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Turkuaz Aktif Pasif Elektronik",
+      "kisi": "Şinasi Basmacı",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Turkuaz Aktif Pasif Elektronik",
+      "kisi": "Gaffar Levent Dağtaş",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Suzhou PTC Optical Instrument Co., Ltd.",
+      "kisi": "Lucky Duan",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Shenzhen PTC Vision Technology Co., Ltd.",
+      "kisi": "Lucky Duan",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Suzhou Tiansuo Intelligent Technology Co., Ltd.",
+      "kisi": "Lucky Duan",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Gel-Pak / Delphon",
+      "kisi": "",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "TELTEC Semiconductor Technik GmbH",
+      "kisi": "Harald Gutschi",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "GeQD Germanium Quantum Detectors",
+      "kisi": "Maurice Wapitzek / Maximilian Scheu / Jakob Finkbeiner / Claudia Bett",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "JUMO GmbH & Co. KG",
+      "kisi": "Jürgen-Enrico Schanz",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Additel Corporation",
+      "kisi": "Michael Starbaek",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "WaferPlus Taiwan",
+      "kisi": "Max Huang",
+      "email": "",
+      "talep": "Notta fiyat/saat benzeri ifade var ($50/h? belirsiz)",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Apollo Electronics (Shenzhen) Co., Ltd.",
+      "kisi": "Sports Chen",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "SIKA Dr. Siebert & Kühn GmbH & Co. KG",
+      "kisi": "Martin Fräger",
+      "email": "",
+      "talep": "Pressure sensor için chip ihtiyacı",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Sourcewell Devices Pvt. Ltd.",
+      "kisi": "Bharat Jain",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Mesurex",
+      "kisi": "Daphné Roggeman-Jardin",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "OHB System AG",
+      "kisi": "Alexander Eschofier",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Porex Technologies GmbH",
+      "kisi": "Dirk Op het Veld",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Protronix s.r.o.",
+      "kisi": "Miloš Žáček",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Temperaturmeßtechnik Geraberg GmbH",
+      "kisi": "",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Oizom Instruments Pvt. Ltd.",
+      "kisi": "",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "HROC Digital Ventures Pte. Ltd.",
+      "kisi": "Markus Rochow",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Turkish Aerospace Industries",
+      "kisi": "Büşra Doğan",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Turkish Aerospace Industries",
+      "kisi": "Ayşe Bilsel",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Turkish Aerospace Industries",
+      "kisi": "Bayram Alican Boztuğ",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Kerafol Keramische Folien GmbH & Co. KG",
+      "kisi": "Dr.-Ing. Murat Bektaş",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Vipulse",
+      "kisi": "Serkan Ördekıran",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Sensography International",
+      "kisi": "V D Shivle",
+      "email": "",
+      "talep": "Pt100/Pt1000/Pt500 talepleri (Toplam 210,000 pcs + sınıf ayrımları)",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Kolektor Mobility",
+      "kisi": "Roman Hodnik",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Roketsan",
+      "kisi": "Fethi Hakbilen",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Böllhoff",
+      "kisi": "Roques Alexandre",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Wärtsilä Finland Oy",
+      "kisi": "Tommi Hakala",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Mela Sensortechnik GmbH",
+      "kisi": "Stephan Marek",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Micro Sensor Co., Ltd",
+      "kisi": "Sheng Xu",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Semefab",
+      "kisi": "Chris Kelly",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Flexcity Italia",
+      "kisi": "Flavio Corazza",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Mann+Hummel",
+      "kisi": "Daniel Reis",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Outotec GmbH",
+      "kisi": "Stefan Bäßler",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Research Centre Rez",
+      "kisi": "Jindrich Jansa",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Schaeffler",
+      "kisi": "Vishnuprasad Revkumar Nair",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "TU Saratow",
+      "kisi": "Aleksandr Skripkin",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "PCB Piezotronics GmbH",
+      "kisi": "Mehmet Soenmez",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Tempcontrol",
+      "kisi": "Marlies Smits",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Ostbayerische Technische Hochschule Regensburg",
+      "kisi": "Corinna Kaulen",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "INFRASOLID GmbH",
+      "kisi": "Marco Schossig",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "AMT Advanced Manufacturing Technology GmbH",
+      "kisi": "Thiruvarul Durai",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    },
+    {
+      "firma": "Nexperia Germany GmbH",
+      "kisi": "Raimon Weiqing Zhao",
+      "email": "",
+      "talep": "Belirtilmemiş",
+      "asama": "yeni",
+      "email_sayisi": 0,
+      "son_etkilesim": ""
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "name": "👁️ E-posta Takip Webhook",
+  "nodes": [
+    {
+      "id": "b1c2d3e4-0001-4000-8000-000000000001",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "parameters": {
+        "path": "email-takip",
+        "responseMode": "onReceived",
+        "responseData": "allEntries",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Content-Type",
+                "value": "image/gif"
+              }
+            ]
+          },
+          "rawBody": true
+        }
+      },
+      "webhookId": "email-takip"
+    },
+    {
+      "id": "b1c2d3e4-0001-4000-8000-000000000002",
+      "name": "Event'i Çözümle",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [200, 0],
+      "parameters": {
+        "language": "python",
+        "code": "# Gelen takip event'ini çözümle\n# URL: webhook/email-takip?cid=XXX&event=open|click&action=interested|...\n\nimport urllib.parse\n\nfor item in items:\n    query = item['json']['query']\n    params = urllib.parse.parse_qs(query)\n    \n    customer_id = params.get('cid', [None])[0]\n    event = params.get('event', [None])[0]\n    action = params.get('action', [None])[0]\n    \n    item['json']['customer_id'] = customer_id\n    item['json']['event'] = event\n    item['json']['action'] = action\n    \n    # Event tipine göre aşama belirle\n    stage_map = {\n        'open': 'email_acildi',\n        'click': 'ilgilendi',\n    }\n    if action == 'interested':\n        item['json']['hedef_asama'] = 'ilgilendi'\n    elif action == 'followup_click':\n        item['json']['hedef_asama'] = 'ilgilendi'\n    elif action == 'offer_view':\n        item['json']['hedef_asama'] = 'teklif_gonderildi'\n    elif event == 'open':\n        item['json']['hedef_asama'] = 'email_acildi'\n    else:\n        item['json']['hedef_asama'] = 'ilgilendi'\n\nreturn items"
+      }
+    },
+    {
+      "id": "b1c2d3e4-0001-4000-8000-000000000003",
+      "name": "Aşamayı İlerlet",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [400, 0],
+      "parameters": {
+        "method": "GET",
+        "url": "={{ 'http://localhost:8080/ilerlet/' + $json['customer_id'] + '/' + $json['hedef_asama'] }}",
+        "authentication": "none",
+        "options": {}
+      }
+    },
+    {
+      "id": "b1c2d3e4-0001-4000-8000-000000000004",
+      "name": "Yanıt Gönder",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [600, 0],
+      "parameters": {
+        "language": "python",
+        "code": "# Tracking pixel için 1x1 GIF yanıtı döndür\nimport base64\n\npixel_b64 = \"R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\"\npixel_bytes = base64.b64decode(pixel_b64)\n\n# Yanıt olarak 1x1 şeffaf GIF döndür\nreturn [\n    {\n        \"json\": {\n            \"status\": \"ok\",\n            \"event\": items[0]['json'].get('event', 'unknown'),\n        },\n        \"binary\": {\n            \"data\": {\n                \"data\": base64.b64encode(pixel_bytes).decode('ascii'),\n                \"mimeType\": \"image/gif\",\n                \"fileName\": \"pixel.gif\"\n            }\n        }\n    }\n]"
+      }
+    }
+  ],
+  "connections": {
+    "b1c2d3e4-0001-4000-8000-000000000001": {
+      "main": [[{ "node": "b1c2d3e4-0001-4000-8000-000000000002", "type": "main", "index": 0 }]]
+    },
+    "b1c2d3e4-0001-4000-8000-000000000002": {
+      "main": [[{ "node": "b1c2d3e4-0001-4000-8000-000000000003", "type": "main", "index": 0 }]]
+    },
+    "b1c2d3e4-0001-4000-8000-000000000003": {
+      "main": [[{ "node": "b1c2d3e4-0001-4000-8000-000000000004", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": ["email-tracking", "webhook"],
+  "active": false
+}

@@ -1,0 +1,173 @@
+{
+  "name": "📧 Müşteri E-posta Kampanyası",
+  "nodes": [
+    {
+      "id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "name": "Kampanyayı Başlat",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "parameters": {}
+    },
+    {
+      "id": "a1b2c3d4-0001-4000-8000-000000000002",
+      "name": "CSV'yi Oku",
+      "type": "n8n-nodes-base.readBinaryFiles",
+      "typeVersion": 1,
+      "position": [200, 0],
+      "parameters": {
+        "filePath": "/mnt/downloads/sensors+test-2026/firma_kartvizitleri_tum_liste.csv"
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-4000-8000-000000000003",
+      "name": "CSV'yi Parse Et",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [400, 0],
+      "parameters": {
+        "language": "python",
+        "code": "import csv\nimport io\n\nitems = []\nbinary = items[0]['binary']['data']\ncontent = io.StringIO(binary['data'].decode('utf-8-sig'))\nreader = csv.DictReader(content, delimiter=';')\nfor row in reader:\n    items.append({\n        'json': {\n            'firma': row.get('Firma', '').strip(),\n            'kisi': row.get('Kişi', '').strip(),\n            'rol': row.get('Rol/Unvan', '').strip(),\n            'email': row.get('E-posta', '').strip() if row.get('E-posta') else '',\n            'talep': row.get('Ne istiyor', '').strip(),\n            'miktar': row.get('Miktar/Tutar', '').strip(),\n            'kategori': row.get('Kategori', '').strip(),\n            'kaynak': row.get('Kaynak', '').strip(),\n            'asama': 'yeni',\n        }\n    })\nreturn items"
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-4000-8000-000000000004",
+      "name": "E-posta Var mı?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [600, 0],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "cond-email",
+              "leftValue": "={{ $json[\"email\"] }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "isNotEmpty"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-4000-8000-000000000005",
+      "name": "Kişiselleştir",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [800, -100],
+      "parameters": {
+        "language": "python",
+        "code": "# Her müşteri için kişiselleştirilmiş içerik hazırla\nimport hashlib\n\nfor item in items:\n    data = item['json']\n    customer_id = hashlib.md5(f\"{data['firma']}-{data['email']}\".encode()).hexdigest()[:12]\n    \n    # Takip pixel URL'si (kendi webhook URL'nizle değiştirin)\n    tracking_base = \"https://n8n.retailerway.com/webhook/email-takip\"\n    data['customer_id'] = customer_id\n    data['tracking_pixel'] = f\"{tracking_base}?cid={customer_id}&event=open\"\n    data['tracking_url'] = f\"{tracking_base}?cid={customer_id}&event=click\"\n    \n    # Konu satırı kişiselleştirme\n    if data['talep'] and data['talep'] != 'Belirtilmemiş':\n        data['konu'] = f\"Sensor+Test 2026 – {data['firma']} / {data['talep'][:60]}\"\n    else:\n        data['konu'] = f\"Sensor+Test 2026 – {data['firma']} görüşmemiz hakkında\"\n    \n    item['json'] = data\n\nreturn items"
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-4000-8000-000000000006",
+      "name": "E-posta Şablonu Seç",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [1000, -100],
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "email_html",
+              "value": "={{ $json[\"email_html\"] }}"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-4000-8000-000000000007",
+      "name": "SMTP Gönder",
+      "type": "n8n-nodes-base.smtp",
+      "typeVersion": 1,
+      "position": [1200, -100],
+      "parameters": {
+        "fromEmail": "noreply@istmicro.com.tr",
+        "fromName": "IST Micro Teknoloji",
+        "toEmail": "={{ $json[\"email\"] }}",
+        "subject": "={{ $json[\"konu\"] }}",
+        "emailType": "html",
+        "message": "={{ $json[\"email_html\"] }}"
+      },
+      "credentials": {
+        "smtp": {
+          "id": "smtp-credential-id",
+          "name": "IST Micro SMTP"
+        }
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-4000-8000-000000000008",
+      "name": "Aşama Güncelle",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [1400, -100],
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:8080/email_gonderildi",
+        "authentication": "none",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            { "name": "firma", "value": "={{ $json[\"firma\"] }}" },
+            { "name": "kisi", "value": "={{ $json[\"kisi\"] }}" },
+            { "name": "email", "value": "={{ $json[\"email\"] }}" },
+            { "name": "customer_id", "value": "={{ $json[\"customer_id\"] }}" }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "a1b2c3d4-0001-4000-8000-000000000009",
+      "name": "E-posta Yok",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [800, 200],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "a1b2c3d4-0001-4000-8000-000000000001": {
+      "main": [[{ "node": "a1b2c3d4-0001-4000-8000-000000000002", "type": "main", "index": 0 }]]
+    },
+    "a1b2c3d4-0001-4000-8000-000000000002": {
+      "main": [[{ "node": "a1b2c3d4-0001-4000-8000-000000000003", "type": "main", "index": 0 }]]
+    },
+    "a1b2c3d4-0001-4000-8000-000000000003": {
+      "main": [[{ "node": "a1b2c3d4-0001-4000-8000-000000000004", "type": "main", "index": 0 }]]
+    },
+    "a1b2c3d4-0001-4000-8000-000000000004": {
+      "main": [
+        [{ "node": "a1b2c3d4-0001-4000-8000-000000000005", "type": "main", "index": 0 }],
+        [{ "node": "a1b2c3d4-0001-4000-8000-000000000009", "type": "main", "index": 0 }]
+      ]
+    },
+    "a1b2c3d4-0001-4000-8000-000000000005": {
+      "main": [[{ "node": "a1b2c3d4-0001-4000-8000-000000000006", "type": "main", "index": 0 }]]
+    },
+    "a1b2c3d4-0001-4000-8000-000000000006": {
+      "main": [[{ "node": "a1b2c3d4-0001-4000-8000-000000000007", "type": "main", "index": 0 }]]
+    },
+    "a1b2c3d4-0001-4000-8000-000000000007": {
+      "main": [[{ "node": "a1b2c3d4-0001-4000-8000-000000000008", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": ["email-campaign", "sensor-test-2026"],
+  "active": false
+}
