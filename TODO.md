@@ -109,3 +109,6 @@
   - 🔄 Takip & Sipariş Süreci → `TaWQQh2nVi3PJMzM`
 - [x] SMTP credential "SMTP account" otomatik atandı.
 - [x] Tracking webhook URL: `https://n8n.retailerway.com/webhook/email-takip`
+- [x] 📥 E-posta Yanıtları workflow'u eklendi (`d6J5U1y2MgRPk4RG`) — IMAP ile gelen yanıtları okur, müşteri aşamasını "ilgilendi"ye ilerletir.
+- [x] Kampanya workflow'u güncellendi — Reply-To başlığı ve `[IST-XXXXX]` takip kodu eklendi.
+- [x] Müşteri yanıtları artık otomatik algılanır ve pipeline güncellenir.
