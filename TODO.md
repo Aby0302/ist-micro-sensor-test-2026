@@ -103,3 +103,9 @@
 - [x] HTML e-posta şablonları (welcome, followup, offer) — email_templates/ klasöründe.
 - [x] Müşteri aşama takip sistemi (customer_pipeline.py) ve e-posta ile zenginleştirilmiş CSV (musteri_listesi_email.csv).
 - [x] Kurulum kılavuzu (workflows/SETUP.md).
+- [x] n8n MCP üzerinden 3 workflow doğrudan n8n'de oluşturuldu:
+  - 📧 Müşteri E-posta Kampanyası → `Fqz1UAeqWhc7NVyT`
+  - 👁️ E-posta Takip Webhook → `T15vpmIPc7XIKcfd` (aktif, test edildi ✅)
+  - 🔄 Takip & Sipariş Süreci → `TaWQQh2nVi3PJMzM`
+- [x] SMTP credential "SMTP account" otomatik atandı.
+- [x] Tracking webhook URL: `https://n8n.retailerway.com/webhook/email-takip`
