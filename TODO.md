@@ -121,3 +121,12 @@
   - Yeni workflow: 📥 Exchange E-posta Yanıtları (2jYlcTyw208PbGJb)
   - Schedule trigger (10 dk) + Outlook folderMessage.getAll + message.reply
   - Eski IMAP workflow'ları arşivlendi
+- [x] Bilgi bazı (ist_micro_bilgi_baz.json) web sitesi meta verileriyle zenginleştirildi:
+  - Şirket adı: IST Micro Sensör Teknolojileri AŞ
+  - Web: istmicro.com, E-posta: info@istmicro.com
+  - Yeni ürün kategorileri: NTC Sensör, Thermowell, Mikro Isıtıcı, Gaz Sensörü
+  - SSS yeni ürünler için genişletildi
+- [x] 🌐 Web Sitesi Senkronizasyonu workflow'u oluşturuldu (xmVwMmuTavITjCUr):
+  - Haftada bir (Pazartesi 08:00) istmicro.com'u tarar
+  - Meta bilgilerini çıkarır, bilgi bazını otomatik günceller
+  - Site erişilemezse mevcut bilgi bazını korur
