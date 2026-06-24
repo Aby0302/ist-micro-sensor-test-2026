@@ -136,4 +136,4 @@
 - [x] 157 fuar kontağı Customers API üzerinden import edildi.
 - [x] Yeni n8n workflow'larını validate et ve oluştur. (mevcut workflow'lar güncellendi: Fqz1UAeqWhc7NVyT, T15vpmIPc7XIKcfd, TaWQQh2nVi3PJMzM)
 - [x] n8n workflow'larını test et ve publish et. (pin testleri başarılı; 3 workflow publish edildi)
-- [ ] Kod düzeltmelerini commit/push et. (status/diff/log kontrol edildi; commit sırada)
+- [x] Kod düzeltmelerini commit/push et. (sensor repo d1e6454, web repo 90de0ff pushlandı)
