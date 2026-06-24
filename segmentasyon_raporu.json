@@ -1,0 +1,2341 @@
+{
+  "toplam_kontak": 165,
+  "email_olan": 157,
+  "email_olmayan": 8,
+  "segment_dagilimi": {
+    "Genel": 138,
+    "Pt100": 11,
+    "Basinc Sensorleri": 8,
+    "Gaz Akis Sensorleri": 6,
+    "Pt Sicaklik Sensorleri": 5,
+    "Pt1000": 5,
+    "Pt200": 2,
+    "Termistorler": 2,
+    "Pt500": 1
+  },
+  "kontaklar": [
+    {
+      "firma": "Kolektor Mobility",
+      "kisi": "Roman Hodnik",
+      "email": "Roman.Hodnik@kolektor.com",
+      "unvan": "",
+      "web": "www.kolektor.com",
+      "ulke": "Slovenija",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "QR vCard içeriğinden alındı. | [Uretici] Otomotiv ve endustriyel elektronik",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "ROKETSAN",
+      "kisi": "Fethi Hakbilen",
+      "email": "",
+      "unvan": "",
+      "web": "www.roketzan.com.tr",
+      "ulke": "Ankara, Türkiye",
+      "kategori": "Savunma/Havacilik",
+      "talep": "",
+      "notlar": "SENSOR+TEST rozeti; iletişim bilgisi görünmüyor.; ROKETSAN - Savunma sanayi, füze sistemleri. SENSOR+TEST rozetinden alindi. | [Savunma/Havacilik] Roket ve savunma sistemleri",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Böllhoff",
+      "kisi": "Roques Alexandre",
+      "email": "info@boellhoff.com",
+      "unvan": "",
+      "web": "www.boellhoff.com",
+      "ulke": "Bielefeld, Almanya",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "SENSOR+TEST 1-day-ticket; iletişim bilgisi görünmüyor.; Böllhoff - Baglanti elemanlari ve montaj cozumleri.",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Wärtsilä Finland Oy",
+      "kisi": "Tommi Hakala",
+      "email": "tommi.hakala@wartsila.com",
+      "unvan": "",
+      "web": "www.wartsila.com",
+      "ulke": "Vaasa, Finlandiya",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "SENSOR+TEST rozeti; iletişim bilgisi görünmüyor.; Wärtsilä - Denizcilik ve enerji cozumleri. Senior Measurement Engineer.",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Mela Sensortechnik GmbH",
+      "kisi": "Stephan Marek",
+      "email": "mela@melasensor.de",
+      "unvan": "",
+      "web": "www.mela-sensortechnik.de",
+      "ulke": "Mohlsdorf, Almanya",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "SENSOR+TEST 1-day-ticket; iletişim bilgisi görünmüyor.; Mela Sensortechnik GmbH - Geschäftsführer/CEO. Kapasitif nem sensorleri. | [Uretici] Sensor teknolojileri",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Micro Sensor Co., Ltd.",
+      "kisi": "Sheng Xu",
+      "email": "sales@microsensor.cn",
+      "unvan": "",
+      "web": "www.microsensor.cn",
+      "ulke": "Baoji, Shaanxi, Çin",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "SENSOR+TEST 1-day-ticket; iletişim bilgisi görünmüyor.; Micro Sensor - Basinç, seviye, sicaklik ve akis sensorleri. | [Uretici] Basinc ve sicaklik sensorleri",
+      "segmentler": [
+        "Basinc Sensorleri",
+        "Gaz Akis Sensorleri",
+        "Pt Sicaklik Sensorleri"
+      ]
+    },
+    {
+      "firma": "Semefab",
+      "kisi": "Chris Kelly",
+      "email": "info@semefab.com",
+      "unvan": "",
+      "web": "www.semefab.com",
+      "ulke": "Glenrothes, Iskocya, BK",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "SENSOR+TEST permanent ticket; iletişim bilgisi görünmüyor.; Semefab - Yari iletken MEMS ureticisi. | [Uretici] MEMS ve yari iletken fabrikasyon",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Electrolux Italia",
+      "kisi": "Flavio Corazza",
+      "email": "flavio.corazza@electrolux.it",
+      "unvan": "",
+      "web": "www.electrolux.com",
+      "ulke": "Pordenone, Italya",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "SENSOR+TEST 1-day-ticket; QR kodda ek link görünüyor.; Electrolux Italia - AI Engineer / Beyaz esya. SENSOR+TEST 1-day-ticket. | [Uretici] Beyaz esya ve ev aletleri",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "MANN+HUMMEL",
+      "kisi": "Daniel Reis",
+      "email": "daniel.reis@mann-hummel.com",
+      "unvan": "",
+      "web": "www.mann-hummel.com",
+      "ulke": "Almanya",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "SENSOR+TEST 1-day-ticket; iletişim bilgisi görünmüyor.; MANN+HUMMEL - Filtrasyon cozumleri. SENSOR+TEST 1-day-ticket.; MANN+HUMMEL - Filtrasyon cozumleri. Mechatronics Engineer. SENSOR+TEST 1-day-ticket. | [Uretici] Filtreleme teknolojileri",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Octotech GmbH",
+      "kisi": "Stefan Bäßler",
+      "email": "info@octotech.de",
+      "unvan": "",
+      "web": "www.man.eu; www.sab-cable.com",
+      "ulke": "Münih, Almanya",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "SENSOR+TEST 1-day-ticket; iletişim bilgisi görünmüyor.; Octotech GmbH - Dr.-Ing., Yonetici ortak. SENSOR+TEST 1-day-ticket. | [Uretici] Optik ve lazer teknolojileri",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Research Centre Řež",
+      "kisi": "Jindrich Jansa",
+      "email": "jindrich.jansa@cvrez.cz",
+      "unvan": "",
+      "web": "www. cvrez.cz",
+      "ulke": "Rez, Çek Cumhuriyeti",
+      "kategori": "Ar-Ge/Egitim",
+      "talep": "",
+      "notlar": "SENSOR+TEST 1-day-ticket; iletişim bilgisi görünmüyor.; Centrum výzkumu Řež - Nükleer enerji arastirma.",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Schaeffler",
+      "kisi": "Vishnuprasad Revikumar Nair",
+      "email": "",
+      "unvan": "",
+      "web": "www.schaeffler.com",
+      "ulke": "Almanya",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Şirket kimlik kartı; iletişim bilgisi görünmüyor.; Schaeffler - Rulman ve otomotiv teknolojileri. Kimlik kartindan alindi. | [Uretici] Rulman ve otomotiv teknolojileri",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "TU Saratow",
+      "kisi": "Aleksandr Skripkin",
+      "email": "",
+      "unvan": "",
+      "web": "www.tu-saratow.ru",
+      "ulke": "Saratov, Rusya",
+      "kategori": "Ar-Ge/Egitim",
+      "talep": "",
+      "notlar": "SENSOR+TEST 1-day-ticket; iletişim bilgisi görünmüyor.; TU Saratow - Teknik universite. SENSOR+TEST 1-day-ticket. | [Ar-Ge/Egitim] Teknik universite",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "PCB Piezotronics GmbH",
+      "kisi": "Mehmet Sönmez",
+      "email": "info.de@pcb.com",
+      "unvan": "",
+      "web": "www.pcbpiezotronics.com; www.yageo.com",
+      "ulke": "Hückelhoven, Almanya",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "SENSOR+TEST exhibitor rozeti; iletişim bilgisi görünmüyor.; PCB Piezotronics GmbH - Sensor ve olcum teknolojileri. SENSOR+TEST exhibitor. | [Uretici] Piezoelektrik sensor teknolojileri",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Tempcontrol",
+      "kisi": "Marlies Smits",
+      "email": "info@tempcontrol.nl",
+      "unvan": "",
+      "web": "www.tempcontrol.nl",
+      "ulke": "Hollanda",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "SENSOR+TEST 1-day-ticket; iletişim bilgisi görünmüyor.; Tempcontrol - Sicaklik kontrol cozumleri. SENSOR+TEST 1-day-ticket.; Tempcontrol B.V. - Managing Director. Sicaklik sensorleri, kalibrasyon. Aile sirketi 1975. | [Distributor] Sensor ve olcum distributori",
+      "segmentler": [
+        "Pt Sicaklik Sensorleri"
+      ]
+    },
+    {
+      "firma": "Ostbayerische Technische Hochschule Regensburg",
+      "kisi": "Corinna Kaulen",
+      "email": "",
+      "unvan": "",
+      "web": "www.oth-regensburg.de",
+      "ulke": "Regensburg, Germany",
+      "kategori": "Ar-Ge/Egitim",
+      "talep": "",
+      "notlar": "SENSOR+TEST 1-day-ticket; iletişim bilgisi görünmüyor.; OTH Regensburg - Ostbayerische Technische Hochschule. SENSOR+TEST 1-day-ticket. | [Ar-Ge/Egitim] Teknik universite",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "INFRASOLID GmbH",
+      "kisi": "Marco Schossig",
+      "email": "info.infrasolid@ist-ag.com",
+      "unvan": "",
+      "web": "www.infrasolid.com",
+      "ulke": "Dresden, Almanya",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "SENSOR+TEST exhibitor rozeti; iletişim bilgisi görünmüyor.; INFRASOLID GmbH - Dr.-Ing., CEO/Founder. Termal kizilotesi IR kaynaklari, NDIR gaz analizi. | [Uretici] Kizilotesi sensor teknolojileri",
+      "segmentler": [
+        "Gaz Akis Sensorleri"
+      ]
+    },
+    {
+      "firma": "AMT Advanced Manufacturing Technology GmbH",
+      "kisi": "Thiruvarul Durai",
+      "email": "",
+      "unvan": "",
+      "web": "www.amt-ag.com",
+      "ulke": "Almanya",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "SENSOR+TEST 1-day-ticket; iletişim bilgisi görünmüyor.; AMT Advanced Manufacturing Technology GmbH. SENSOR+TEST 1-day-ticket. | [Uretici] Ileri imalat teknolojileri",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Nexperia Germany GmbH",
+      "kisi": "Ramon Weiqing Zhao",
+      "email": "ramon.zhao@nexperia.com",
+      "unvan": "",
+      "web": "www.nexperia.com",
+      "ulke": "Hamburg, Almanya",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "QR vCard yalnızca isim ve şirket verdi; iletişim bilgisi görünmüyor.; Nexperia Germany GmbH - Yari iletken. QR vCard'dan alindi. | [Uretici] Yari iletken ve diskrit komponentler",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Turkish Aerospace",
+      "kisi": "Bayram Alican Boztuğ",
+      "email": "bayramalican.boztug@tai.com.tr",
+      "unvan": "",
+      "web": "www.senseandcontrol.com",
+      "ulke": "Türkiye",
+      "kategori": "Savunma/Havacilik",
+      "talep": "",
+      "notlar": "Helicopter Vice Presidency. | [Savunma/Havacilik] Havacilik ve uzay teknolojileri",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "FHR Anlagenbau GmbH",
+      "kisi": "Francesco Giarratano",
+      "email": "francesco.giarratano@fhr.de",
+      "unvan": "Senior Expert",
+      "web": "www.fhr.de",
+      "ulke": "Germany",
+      "kategori": "Uretici",
+      "talep": "Not “sputter satan” şeklinde; müşteri talebi değil, sputter/vakum kaplama sistemi tedarikçisi olabilir.; Sputter satan (tedarikçi).",
+      "notlar": "El yazısı: “sputter satan” notu var. | [Uretici] Sputter kaplama sistemleri (tesisat) | Ünvan: Senior Expert | Kaynak: doc07186320260617164238.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "GS Electronic GmbH und Co. KG",
+      "kisi": "Joachim Schuhmann",
+      "email": "jschuhmann@gselectronic.de",
+      "unvan": "Managing Director",
+      "web": "www.gselectronic.de",
+      "ulke": "Fulda, Germany",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Fax: +49 (0)661 9429636. | [Distributor] Elektronik komponent distributori | Ünvan: Managing Director | Kaynak: doc07186820260617165348.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "SENSE",
+      "kisi": "Bayram Karakaya",
+      "email": "bayram@senseandcontrol.com",
+      "unvan": "General Manager",
+      "web": "www.senseandcontrol.com",
+      "ulke": "Ankara, Türkiye",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Sensor teknolojileri | Ünvan: General Manager | Kaynak: doc07187020260617165958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "SAMYOUNG S&C",
+      "kisi": "Namjoon Paek",
+      "email": "njpaek@samyoungsnc.com",
+      "unvan": "Strategic Business Division",
+      "web": "www.samyoungsnc.com",
+      "ulke": "Korea",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Kartta ayrıca +1 765 860 3066 görünüyor. | [Uretici] Partikul ve nem sensorleri | Ünvan: Strategic Business Division | Kaynak: doc07186420260617164728.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Hangzhou Multi IR Technology Co., Ltd.",
+      "kisi": "Jing Lu",
+      "email": "JL@mihtz.com",
+      "unvan": "Chairman",
+      "web": "www.mihtz.com",
+      "ulke": "Hangzhou, China",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Kizilotesi sensor teknolojileri | Ünvan: Chairman | Kaynak: doc07186920260617165726.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "GfG Gesellschaft für Gerätebau mbH",
+      "kisi": "Rainer Krage",
+      "email": "rainer.krage@gfg-mbh.com",
+      "unvan": "Entwicklung",
+      "web": "www.gfg-mbh.com",
+      "ulke": "Dortmund, Germany",
+      "kategori": "Uretici",
+      "talep": "Flow sensor istiyor.",
+      "notlar": "El yazısı: “asked for flow sensor”. Fax: +49 231 56400-895. | Ünvan: Entwicklung | Kaynak: doc07186320260617164238.pdf",
+      "segmentler": [
+        "Gaz Akis Sensorleri"
+      ]
+    },
+    {
+      "firma": "GfG Gesellschaft für Gerätebau mbH",
+      "kisi": "Martin Gorek",
+      "email": "martin.gorek@gfg-safety.de",
+      "unvan": "Entwicklung",
+      "web": "www.baumer.com; www.gfg-safety.de; www.sika.net",
+      "ulke": "Dortmund, Germany",
+      "kategori": "Uretici",
+      "talep": "Flow sensor istiyor.",
+      "notlar": "El yazısı: “flow sensor”. | Ünvan: Entwicklung | Kaynak: doc07186320260617164238.pdf",
+      "segmentler": [
+        "Gaz Akis Sensorleri"
+      ]
+    },
+    {
+      "firma": "CS Instruments GmbH & Co. KG",
+      "kisi": "Michael Kromer",
+      "email": "m.kromer@cs-instruments.com",
+      "unvan": "Leiter Vertrieb / Head of Sales",
+      "web": "www.additel.com; www.cs-instruments.com",
+      "ulke": "VS-Tannheim, Germany",
+      "kategori": "Uretici",
+      "talep": "Flow sensor konusu var.",
+      "notlar": "El yazısı: “flow sensor”. Bazı kişi/e-posta bilgisi kartta genel olarak görünüyor. | [Uretici] Basinc ve sicaklik olcum cihazlari | Ünvan: Leiter Vertrieb / Head of Sales | Kaynak: doc07187120260617170111.pdf",
+      "segmentler": [
+        "Basinc Sensorleri",
+        "Gaz Akis Sensorleri",
+        "Pt Sicaklik Sensorleri"
+      ]
+    },
+    {
+      "firma": "DLR – Deutsches Zentrum für Luft- und Raumfahrt",
+      "kisi": "Marian Kraus",
+      "email": "marian.kraus@dlr.de",
+      "unvan": "Raketenantriebstechnologie",
+      "web": "www.dlr.de",
+      "ulke": "Hardthausen, Germany",
+      "kategori": "Ar-Ge/Egitim",
+      "talep": "",
+      "notlar": "Ünvan: Raketenantriebstechnologie | Kaynak: doc07186820260617165348.pdf; doc07187020260617165958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "ifm prover gmbh",
+      "kisi": "Anton Faustmann",
+      "email": "anton.faustmann@ifm.com",
+      "unvan": "Development Electronic/Sensors, Flow",
+      "web": "www.ifm.com",
+      "ulke": "Tettnang, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Fax: +49 7542 9408-1111. | [Uretici] Endustriyel sensor ve otomasyon | Ünvan: Development Electronic/Sensors, Flow | Kaynak: doc07186820260617165348.pdf",
+      "segmentler": [
+        "Gaz Akis Sensorleri"
+      ]
+    },
+    {
+      "firma": "PPI",
+      "kisi": "Brian Graydon",
+      "email": "bgraydon@ppisystems.com",
+      "unvan": "Director, Business Development",
+      "web": "www.ppisystems.com",
+      "ulke": "Ottawa, Canada",
+      "kategori": "Uretici",
+      "talep": "Laser system (el yazisi notu - laser system)",
+      "notlar": "El yazısı: “laser system” notu var; yazı tam net değil. Fax: (613) 248-4820. | [Uretici] Lazer ve optik sistemler | Ünvan: Director, Business Development | Kaynak: doc07186420260617164728.pdf; doc07186520260617165106.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "H. Heinz Meßwiderstände GmbH",
+      "kisi": "Fangzhou Zhao",
+      "email": "fangzhou.zhao@messwiderstaende.de",
+      "unvan": "Development Engineer",
+      "web": "www.messwiderstaende.de",
+      "ulke": "Elgersburg, Germany",
+      "kategori": "Uretici",
+      "talep": "PT100 1000.",
+      "notlar": "Ünvan: Development Engineer | Kaynak: doc07187020260617165958.pdf; doc07189420260617173343.pdf",
+      "segmentler": [
+        "Pt100"
+      ]
+    },
+    {
+      "firma": "Danfoss A/S – Sensing Solutions",
+      "kisi": "Carsten Christensen",
+      "email": "carsten_christensen@danfoss.com",
+      "unvan": "Senior Technology Specialist",
+      "web": "www.danfoss.com",
+      "ulke": "Copenhagen, Denmark",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Sensor ve sogutma cozumleri | Ünvan: Senior Technology Specialist | Kaynak: doc07186120260617163730.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "SENSOR CHINA",
+      "kisi": "Zhong Haiyan",
+      "email": "zhy@stcec.com",
+      "unvan": "Project Director",
+      "web": "www.sensorchina.com",
+      "ulke": "Shanghai, China",
+      "kategori": "Medya/Organizasyon",
+      "talep": "",
+      "notlar": "[Medya/Organizasyon] Sensor sektoru fuar ve medya | Ünvan: Project Director | Kaynak: doc07186420260617164728.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "YAGEO Group / YAGEO Nexensos GmbH",
+      "kisi": "Ralph Meschkat",
+      "email": "ralph.meschkat@yageo.com",
+      "unvan": "Head of Nexensos Product BU",
+      "web": "www.yageo.com",
+      "ulke": "Kleinostheim, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Direnc ve sensor teknolojileri | Ünvan: Head of Nexensos Product BU | Kaynak: doc07186420260617164728.pdf; doc07188820260617172523.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Trem Trading Co.",
+      "kisi": "S. R. Lee",
+      "email": "trem@trem.co.kr",
+      "unvan": "President",
+      "web": "www.trem.co.kr",
+      "ulke": "Seoul, Korea",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "[Distributor] Sensor ve endustriyel komponent distributori (IST distributori) | Ünvan: President | Kaynak: doc07186920260617165726.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "YAGEO Group / YAGEO Nexensos GmbH",
+      "kisi": "Dr. Andreas Schreiber",
+      "email": "andreas.schreiber@yageo.com",
+      "unvan": "Head of Strategy and Commercial Product Mgmt",
+      "web": "www.yageo.com",
+      "ulke": "Kleinostheim, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Direnc ve sensor teknolojileri | Ünvan: Head of Strategy and Commercial Product Mgmt | Kaynak: doc07186420260617164728.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "YAGEO Group / YAGEO Nexensos GmbH",
+      "kisi": "Axel Bergt",
+      "email": "axel.bergt@yageo.com",
+      "unvan": "Head of Product Management",
+      "web": "www.yageo.com",
+      "ulke": "Kleinostheim, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Direnc ve sensor teknolojileri | Ünvan: Head of Product Management | Kaynak: doc07186420260617164728.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "FHR Anlagenbau GmbH",
+      "kisi": "Sven Häberlein",
+      "email": "sven.haeberlein@fhr.de",
+      "unvan": "Senior Sales Manager",
+      "web": "www.fhr.de",
+      "ulke": "Germany",
+      "kategori": "Uretici",
+      "talep": "Not “sputter satan” şeklinde; müşteri talebi değil, sputter/vakum kaplama sistemi tedarikçisi olabilir.; Sputter satan (tedarikçi).",
+      "notlar": "El yazısı: “sputter satan” notu var. | [Uretici] Sputter kaplama sistemleri (tesisat) | Ünvan: Senior Sales Manager | Kaynak: doc07186320260617164238.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "ENELSAN",
+      "kisi": "Muhammed Gökgöl",
+      "email": "m.gokgol@enelsan.com",
+      "unvan": "Genel Müdür",
+      "web": "www.enelsan.com",
+      "ulke": "Kocaeli / İstanbul, Türkiye",
+      "kategori": "Uretici",
+      "talep": "Debimetre ve ölçüm enstrümanları.",
+      "notlar": "[Uretici] Debimetre ve olcum enstrumanlari (ENELSAN) | Ünvan: Genel Müdür | Kaynak: doc07187020260617165958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Heraeus Electronics GmbH & Co. KG",
+      "kisi": "Andreas Henning",
+      "email": "andreas.henning@heraeus.com",
+      "unvan": "BDM - TFM",
+      "web": "www.heraeus.com; www.melexis.com",
+      "ulke": "Hanau, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Yari iletken ve sensor malzemeleri | Ünvan: BDM - TFM | Kaynak: doc07186520260617165106.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Sensor Technology Ltda.",
+      "kisi": "Luis Bombonatti",
+      "email": "luis.bombonatti@sensor-technology.com.br",
+      "unvan": "Managing Director",
+      "web": "www.sensor-technology.com.br",
+      "ulke": "Diadema, SP, Brazil",
+      "kategori": "Uretici",
+      "talep": "PT200 datasheet istiyor; sonrasında yıllık birkaç milyon adet PT200 tedarik potansiyeli.; PT200 datasheet; milyonlarca PT200 potansiyeli.",
+      "notlar": "Fax: +55 (11) 4071-2791. | [Uretici] PT sensor teknolojileri (Brezilya) | Ünvan: Managing Director | Kaynak: doc07187020260617165958.pdf; doc07187420260617170304.pdf",
+      "segmentler": [
+        "Pt200"
+      ]
+    },
+    {
+      "firma": "sensry GmbH",
+      "kisi": "Mario Grafe",
+      "email": "m.grafe@sensry.de",
+      "unvan": "Engineering Manager",
+      "web": "www.sensry.de; www.taprogge.de",
+      "ulke": "Dresden, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "info@sensry.de kartta ayrıca yazıyor. | [Uretici] Sensor teknolojileri | Ünvan: Engineering Manager | Kaynak: doc07187020260617165958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "UNITRONIC GmbH",
+      "kisi": "Salih Şenel",
+      "email": "salih.senel@unitronic.de",
+      "unvan": "Field Application Engineer",
+      "web": "www.unitronic.de",
+      "ulke": "Neuss, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Fax: +49 2131 752 918 50. | [Uretici] Olcum ve sensor teknolojileri | Ünvan: Field Application Engineer | Kaynak: doc07186820260617165348.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "De-Nau (Shanghai) Advanced Technology Ltd",
+      "kisi": "Dr. Zou Chuang-Min",
+      "email": "chuangmin.zou@de-nau.com",
+      "unvan": "Managing Director",
+      "web": "www.de-nau.com",
+      "ulke": "Shanghai, China",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Ileri teknoloji sensorleri | Ünvan: Managing Director | Kaynak: doc07186920260617165726.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Fraunhofer IIS",
+      "kisi": "Pit Ritter",
+      "email": "pit.ritter@iis.fraunhofer.de",
+      "unvan": "Sr. BDM",
+      "web": "www.iis.fraunhofer.de",
+      "ulke": "Erlangen, Germany",
+      "kategori": "Ar-Ge/Egitim",
+      "talep": "",
+      "notlar": "Integrated Sensor Systems Department / Smart Sensing and Electronics Division. | [Ar-Ge/Egitim] Entegre sensor sistemleri arastirma | Ünvan: Sr. BDM | Kaynak: doc07186820260617165348.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "IceMOS Technology",
+      "kisi": "Hugh J. Griffin",
+      "email": "hughgriffin@icemos.com",
+      "unvan": "Chief Sales Officer",
+      "web": "www.icemos.com",
+      "ulke": "Belfast, UK",
+      "kategori": "Uretici",
+      "talep": "El yazısında “press … sensors” gibi görünüyor; muhtemelen pressure sensors / MEMS sensor konusu.; Pressure/MEMS sensors.",
+      "notlar": "El yazısı: “press … sensors” notu var; tam okunamadı. | [Uretici] MEMS ve basinc sensor teknolojileri | Ünvan: Chief Sales Officer | Kaynak: doc07186920260617165726.pdf",
+      "segmentler": [
+        "Basinc Sensorleri"
+      ]
+    },
+    {
+      "firma": "Robert Bosch Kft.",
+      "kisi": "Merve Akgün",
+      "email": "merve.akgun2@hu.bosch.com",
+      "unvan": "Project Coordinator",
+      "web": "www.bosch.com",
+      "ulke": "Budapest, Hungary",
+      "kategori": "Uretici",
+      "talep": "MEMS solutions notu var; talep mi, ürün/iş birliği konusu mu net değil.",
+      "notlar": "El yazısı: “MEMS solutions”. | [Uretici] MEMS ve otomotiv sensorleri | Ünvan: Project Coordinator | Kaynak: doc07186420260617164728.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Hotset GmbH",
+      "kisi": "Helge Meiritz",
+      "email": "hmeiritz@hotset.com",
+      "unvan": "Head of Temperature Solutions",
+      "web": "www.hotset.com",
+      "ulke": "Lüdenscheid, Germany",
+      "kategori": "Uretici",
+      "talep": "PT100 Class B sensör istiyor.; PT100 Class B 50,000 pcs; 2x2 mm; 260°C.",
+      "notlar": "El yazısı: 50,000 pcs PT100 Class B; dış çap 2x2 mm; max temp 260°C; uyumluluk kontrol edilecek. | [Uretici] Sicaklik sensor ve isitma elemanlari | Ünvan: Head of Temperature Solutions | Kaynak: doc07187320260617170233.pdf",
+      "segmentler": [
+        "Pt Sicaklik Sensorleri",
+        "Pt100"
+      ]
+    },
+    {
+      "firma": "Analysis Sensors",
+      "kisi": "Aristidis Iacovou",
+      "email": "aris-iacovou@analysis-sensors.com",
+      "unvan": "Managing Director",
+      "web": "www.analysis-sensors.com",
+      "ulke": "Magnesia, Greece",
+      "kategori": "Uretici",
+      "talep": "316L Pt100 ozel sensor; 316L Pt100 özel; 1000/year; 40 bar.",
+      "notlar": "El çizimi/not: 1000/year; 316L; Pt100; 40 bar; input impedance >5 kΩ; 2mV/V–20mV/V. Bazı ölçüler görselden kontrol edilmeli. | [Uretici] Analitik sensor cozumleri | Ünvan: Managing Director | Kaynak: doc07186520260617165106.pdf",
+      "segmentler": [
+        "Pt100"
+      ]
+    },
+    {
+      "firma": "İlter Savunma",
+      "kisi": "Yunus Ataş",
+      "email": "yunus.atas@iltersavunma.com.tr",
+      "unvan": "Genel Müdür",
+      "web": "www.iltersavunma.com.tr",
+      "ulke": "Ankara, Türkiye",
+      "kategori": "Savunma/Havacilik",
+      "talep": "",
+      "notlar": "Elektronik donanım ve yazılım tasarımı / otomatik test sistemleri tasarımı. | Ünvan: Genel Müdür | Kaynak: doc07187020260617165958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "DynaLabs",
+      "kisi": "Emre Burak Bilgücü",
+      "email": "ebilgucu@dynalabs.com.tr",
+      "unvan": "Sales Team Leader",
+      "web": "www.dynalabs.com.tr",
+      "ulke": "Ankara, Türkiye",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Dinamik olcum ve sensor sistemleri | Ünvan: Sales Team Leader | Kaynak: doc07186120260617163730.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Pavelsis",
+      "kisi": "Osman Eray Aksak",
+      "email": "osmaneray.aksak@pavelsis.com",
+      "unvan": "Supply Chain Manager",
+      "web": "www.pavelsis.com",
+      "ulke": "İstanbul, Türkiye",
+      "kategori": "Savunma/Havacilik",
+      "talep": "",
+      "notlar": "[Savunma/Havacilik] Aviyonik ve askeri elektronik | Ünvan: Supply Chain Manager | Kaynak: doc07186120260617163730.pdf; doc07186820260617165348.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "DynaLabs",
+      "kisi": "Murat Karadeniz",
+      "email": "mkaradeniz@dynalabs.com.tr",
+      "unvan": "Sales Director",
+      "web": "www.dynalabs.com.tr; www.kerafol.com",
+      "ulke": "Ankara, Türkiye",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Dinamik olcum ve sensor sistemleri | Ünvan: Sales Director | Kaynak: doc07186120260617163730.pdf; doc07189320260617173210.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "TUALCOM Germany GmbH",
+      "kisi": "Abdurrahman Bor",
+      "email": "abdurrahman.bor@tualcom.com",
+      "unvan": "Operations Director",
+      "web": "www.tualcom.com",
+      "ulke": "München, Germany",
+      "kategori": "Savunma/Havacilik",
+      "talep": "",
+      "notlar": "Kartta ikinci telefon numarası var; küçük/rotasyonlu olduğu için tam doğrulanmalı. | [Uretici] Telekomunikasyon ve savunma elektronigi | Ünvan: Operations Director | Kaynak: doc07187120260617170111.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "NOVA Elektrik San. ve Tic. A.Ş.",
+      "kisi": "Suavi Atalay",
+      "email": "atalay@novaelektrik.com.tr",
+      "unvan": "Chairman of the Board",
+      "web": "www.novaelektrik.com.tr",
+      "ulke": "İstanbul, Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Fax: +90 (212) 477 01 71. | Ünvan: Chairman of the Board | Kaynak: doc07186120260617163730.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Turkuaz Aktif Pasif Elektronik Tic. Ltd. Şti.",
+      "kisi": "Şinasi Basmacı",
+      "email": "sinasi.basmaci@turkuazap.com",
+      "unvan": "Genel Müdür",
+      "web": "www.turkuazap.com",
+      "ulke": "İstanbul, Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Fax: +90 212 438 5661. | Ünvan: Genel Müdür | Kaynak: doc07186120260617163730.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Turkuaz Aktif Pasif Elektronik Ticaret Limited Şirketi",
+      "kisi": "Gaffar Levent Dağtaş",
+      "email": "levent.dagtas@turkuazap.com",
+      "unvan": "Sales Manager",
+      "web": "www.turkuazap.com",
+      "ulke": "İstanbul, Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Fax: +90 212 438 5661. | Ünvan: Sales Manager | Kaynak: doc07186120260617163730.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "PTC / Suzhou PTC Optical Instrument Co., Ltd.",
+      "kisi": "Lucky Duan",
+      "email": "luckyduan@ptcstress.com",
+      "unvan": "PM, Product Management Dept.",
+      "web": "www.ptcstress.com",
+      "ulke": "Kunshan / Shenzhen / Suzhou, China",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Brochure: Advanced Intelligent Manufacturing Solution and Service Leader / Customized Integrated Line Solution. | [Uretici] Optik olcum cihazlari | Ünvan: PM, Product Management Dept. | Kaynak: doc07187520260617170339.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "TELTEC Semiconductor Technik GmbH",
+      "kisi": "Harald Gutschi",
+      "email": "harald.gutschi@teltec.com",
+      "unvan": "Sales",
+      "web": "teltec.com | Munich Office, Hanns-Schwindt-Str. 8, 81829 München, Germany",
+      "ulke": "München, Germany",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Gel-Pak broşürü üzerindeki TELTEC kartvizitinden alındı. Kaynak: WhatsApp Image 2026-06-15 12.34.42 PM (5).jpeg | [Distributor] Yari iletken ve sensor distributori",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "GeQD",
+      "kisi": "Maurice Wanitzek; Maximilian Scheu; Jakob Finkbeiner; Claudia Bett",
+      "email": "info@geqd.de",
+      "unvan": "Çoklu isim/firma kartı",
+      "web": "Kartta Pfaffenwaldring 47, 70569 Stuttgart ve www.geqd.de yazıyor.; Pfaffenwaldring 47, 70569 Stuttgart, Germany; www.geqd.de",
+      "ulke": "Stuttgart, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Kartta birden fazla isim var; ortak firma satırı olarak girildi. | [Uretici] Kuantum foton detektorleri (startup) | Ünvan: Çoklu isim/firma kartı | Kaynak: doc07186120260617163730.pdf | Kartta Pfaffenwaldring 47, 70569 Stuttgart ve www.geqd.de yazıyor.",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "JUMO GmbH & Co. KG",
+      "kisi": "Jürgen-Enrico Schanz",
+      "email": "juergen-enrico.schanz@jumo.net",
+      "unvan": "Global Development Mechanics Pressure & Level",
+      "web": "www.jumo.net",
+      "ulke": "Fulda, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Olum ve kontrol teknolojileri | Ünvan: Global Development Mechanics Pressure & Level | Kaynak: doc07187020260617165958.pdf",
+      "segmentler": [
+        "Basinc Sensorleri"
+      ]
+    },
+    {
+      "firma": "Additel Corporation",
+      "kisi": "Michael Starbaek",
+      "email": "michael.starbaek@additel.com",
+      "unvan": "Sales Manager Europe & Mid-East",
+      "web": "www.additel.com; www.cs-instruments.com",
+      "ulke": "Odense, Denmark",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Basinc kalibrasyon cihazlari | Ünvan: Sales Manager Europe & Mid-East | Kaynak: doc07186920260617165726.pdf",
+      "segmentler": [
+        "Basinc Sensorleri"
+      ]
+    },
+    {
+      "firma": "WaferPlus China",
+      "kisi": "Max Huang",
+      "email": "sales@waferplus.com; waferplus.max@outlook.com",
+      "unvan": "CEO",
+      "web": "2nd Unit, 3F, Building C, Binhai 3rd Road, Longwan District, Wenzhou, Zhejiang, China; www.waferplus.com",
+      "ulke": "Wenzhou, Zhejiang, China",
+      "kategori": "Uretici",
+      "talep": "Adres: 2nd Unit, 3F, Building C, Binhai 3rd Road, Longwan District.",
+      "notlar": "El yazısı var; tam okunamadı. Fax: +886 2 26976122. | [Uretici] Yari iletken ve sensor fabrikasyonu | Ünvan: CEO | Kaynak: doc07186520260617165106.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Apollo Electronics (Shenzhen) Co., Ltd.",
+      "kisi": "Sports Chen",
+      "email": "sales@apollounion.com",
+      "unvan": "General Manager",
+      "web": "www.apollounion.com",
+      "ulke": "Shenzhen / Hong Kong / Shanghai / Beijing",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Kart küçük olduğu için e-posta ve tüm ofis numaraları net okunmadı.; Apollo Electronics (Shenzhen) Co., Ltd. - General Manager. Sensor distributor. | [Uretici] Elektronik komponent ve sensor | Ünvan: General Manager | Kaynak: doc07186920260617165726.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "SIKA Dr. Siebert & Kühn GmbH & Co. KG",
+      "kisi": "Martin Fräger",
+      "email": "fraeger@sika.net",
+      "unvan": "Head of Product and Application Mgmt",
+      "web": "www.baumer.com; www.gfg-safety.de; www.sika.net",
+      "ulke": "Kaufungen, Germany",
+      "kategori": "Uretici",
+      "talep": "Pressure sensor için chip ihtiyacı var.; Pressure sensor chip ihtiyacı; Kassel.",
+      "notlar": "El yazısı: “pressure sensor; they need chip in Kassel”. | Ünvan: Head of Product and Application Mgmt | Kaynak: doc07186520260617165106.pdf",
+      "segmentler": [
+        "Basinc Sensorleri"
+      ]
+    },
+    {
+      "firma": "Sourcewell Devices Pvt. Ltd.",
+      "kisi": "Bharat Jain",
+      "email": "bharat@emarindia.in",
+      "unvan": "Director",
+      "web": "www.emarindia.in",
+      "ulke": "Mumbai, India",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Skype/ID: iCsource1; QQ: 2304026191. | [Distributor] Yari iletken ve sensor distributori | Ünvan: Director | Kaynak: doc07187020260617165958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "MESUREX",
+      "kisi": "Daphné Roggeman-Jardin",
+      "email": "d.roggeman-jardin@mesurex.fr; mesurex@mesurex.fr",
+      "unvan": "Présidente",
+      "web": "www.mesurex.fr",
+      "ulke": "St Arnoult-en-Y., France",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Capteurs / acquisition / étalonnage / instrumentation. | [Distributor] Sensor ve olcum cozumleri distributoru | Ünvan: Présidente | Kaynak: doc07186520260617165106.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "OHB System AG",
+      "kisi": "Alexander Eskofier",
+      "email": "alexander.eskofier@ohb.de",
+      "unvan": "System Engineer, Sounding Rockets",
+      "web": "www.ohb.de",
+      "ulke": "Weßling, Germany",
+      "kategori": "Savunma/Havacilik",
+      "talep": "",
+      "notlar": "[Savunma/Havacilik] Uzay sistemleri ve havacilik | Ünvan: System Engineer, Sounding Rockets | Kaynak: doc07186820260617165348.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Porex Technologies GmbH / Filtration Group",
+      "kisi": "Dirk Op het Veld",
+      "email": "dirk.ophetveld@filtrationgroup.com",
+      "unvan": "Regional Sales Manager",
+      "web": "www.filtrationgroup.com",
+      "ulke": "Singwitz, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "[Uretici] Filtreleme ve sensor teknolojileri | Ünvan: Regional Sales Manager | Kaynak: doc07186120260617163730.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Protronix s.r.o.",
+      "kisi": "Miloš Žáček",
+      "email": "milos.zacek@protronix.eu",
+      "unvan": "Executive Director",
+      "web": "www.protronix.eu",
+      "ulke": "Chrudim, Czech Republic",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Fax: +420 469 625 191; ayrıca www.cidla.cz / www.careforair.eu. | [Uretici] Sensor ve olcum sistemleri | Ünvan: Executive Director | Kaynak: doc07186420260617164728.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "HROC Digital Ventures Pte Ltd.",
+      "kisi": "Markus Rochow",
+      "email": "markus@hr-dive.com.sg",
+      "unvan": "Operations Manager",
+      "web": "www.bluetest.eu; www.hr-dive.com.sg; www.picolas.de; www.reissmann.com",
+      "ulke": "Singapore",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: Operations Manager | Kaynak: doc07186520260617165106.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Turkish Aerospace Industries, Inc.",
+      "kisi": "Büşra Doğan",
+      "email": "busra.dogan@tai.com.tr",
+      "unvan": "Uçuş Test Veri Sistemleri / Engineering EVP",
+      "web": "www.tai.com.tr",
+      "ulke": "Ankara, Türkiye",
+      "kategori": "Savunma/Havacilik",
+      "talep": "",
+      "notlar": "Engineering Executive Vice Presidency. Fax: +90 (312) 811 14 25. | [Savunma/Havacilik] Havacilik ve uzay teknolojileri | Ünvan: Uçuş Test Veri Sistemleri / Engineering EVP | Kaynak: doc07186320260617164238.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Turkish Aerospace Industries, Inc.",
+      "kisi": "Ayşe Bilsel",
+      "email": "ayse.bilsel@tai.com.tr",
+      "unvan": "Telemetri Sistemleri / Engineering EVP",
+      "web": "www.tai.com.tr",
+      "ulke": "Ankara, Türkiye",
+      "kategori": "Savunma/Havacilik",
+      "talep": "",
+      "notlar": "Engineering Executive Vice Presidency. Fax: +90 (312) 811 14 25. | [Savunma/Havacilik] Havacilik ve uzay teknolojileri | Ünvan: Telemetri Sistemleri / Engineering EVP | Kaynak: doc07186320260617164238.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "KERAFOL Keramische Folien GmbH & Co. KG",
+      "kisi": "Murat Bektaş",
+      "email": "murat-bektas@kerafol.com",
+      "unvan": "Entwicklungsingenieur; Werkstoffingenieur",
+      "web": "www.dynalabs.com.tr; www.kerafol.com",
+      "ulke": "Eschenbach, Germany",
+      "kategori": "Uretici",
+      "talep": "Ceramic wafer.",
+      "notlar": "Keramische Folien & Sinterprodukte. Bazı telefon/fax bilgisi görselden kontrol edilmeli. | [Uretici] Seramik folyo ve sensor malzemeleri | Ünvan: Entwicklungsingenieur; Werkstoffingenieur | Kaynak: doc07186820260617165348.pdf; doc07189720260617173627.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "VIP PULSE",
+      "kisi": "Fatih Serkan Ordukıran",
+      "email": "f.ordukiran@vippulse.com",
+      "unvan": "Sales & Procurement",
+      "web": "www.tekom.com.tr; www.vippulse.com",
+      "ulke": "Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Mor kart küçük/karanlık; e-posta ve web görselden kontrol edilmeli. | [Distributor] Elektronik komponent distributori | Ünvan: Sales & Procurement | Kaynak: doc07187120260617170111.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Sensography International",
+      "kisi": "V. D. Shivle",
+      "email": "v.shivle@sensographyinc.com",
+      "unvan": "CEO",
+      "web": "www.sensographyinc.com",
+      "ulke": "Pune, India",
+      "kategori": "Uretici",
+      "talep": "PT100 / PT1000 / PT500 RTD sensörleri istiyor.; PT100 100k Class B; PT100 50k A; PT1000 50k A+B; PT500 10k A+B.",
+      "notlar": "El yazısı: PT100 100,000 pcs Class B; PT100 50,000 pcs Class A; PT1000 50,000 pcs Class A+B; PT500 10,000 pcs Class A+B; paketleme notu görselden kontrol edilmeli. | [Uretici] Sensor teknolojileri | Ünvan: CEO | Kaynak: doc07187220260617170204.pdf",
+      "segmentler": [
+        "Pt Sicaklik Sensorleri",
+        "Pt100",
+        "Pt1000",
+        "Pt500"
+      ]
+    },
+    {
+      "firma": "Sensor Technology Ltda.",
+      "kisi": "Lucas Pereira",
+      "email": "lucas.pereira@sensor-technology.com.br",
+      "unvan": "Director of Operations",
+      "web": "www.sensor-technology.com.br; www.xytck.com",
+      "ulke": "Diadema, SP, Brazil",
+      "kategori": "Uretici",
+      "talep": "PT200 datasheet istiyor; sonrasında yıllık birkaç milyon adet PT200 tedarik potansiyeli.; Heraeus'tan ayrılmış; wound sensor; PT200 datasheet.",
+      "notlar": "El yazısı: Heraeus’dan ayrılmış; Brezilya’da kendi şirketini kurmuş. Wound sensor yapıyorlar. Bizden yılda birkaç milyon adet PT200 istiyor; ilk olarak PT200 datasheet istiyor. | [Uretici] PT sensor teknolojileri (Brezilya) | Ünvan: Director of Operations | Kaynak: doc07187420260617170304.pdf",
+      "segmentler": [
+        "Pt200"
+      ]
+    },
+    {
+      "firma": "SAB Bröckskes GmbH & Co. KG",
+      "kisi": "Marc Gerlatzek",
+      "email": "m.gerlatzek@sab-cable.com",
+      "unvan": "Business Development",
+      "web": "Industriestrasse 66, CH-6302 Zug, Switzerland; www.vzug.com; www.sab-cable.com",
+      "ulke": "Viersen, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Business Development | Kaynak: doc07186320260617164238.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Bluetest Testservice GmbH",
+      "kisi": "Markus Nopper",
+      "email": "markus.nopper@bluetest.eu",
+      "unvan": "General Manager",
+      "web": "www.bluetest.eu; www.hr-dive.com.sg; www.picolas.de; www.reissmann.com",
+      "ulke": "Leonberg, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: General Manager | Kaynak: doc07186320260617164238.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Robert Bosch GmbH",
+      "kisi": "Dr. Yang Zou",
+      "email": "yang.zou@de.bosch.com",
+      "unvan": "Advanced Production Automation & Technology",
+      "web": "www.bosch.com",
+      "ulke": "Stuttgart/Renningen, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Advanced Production Automation & Technology | Kaynak: doc07186420260617164728.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Richardson RFPD Germany GmbH",
+      "kisi": "Alin Costandoiu",
+      "email": "alin.costandoiu@richardsonrfpd.com",
+      "unvan": "Senior IoT Field Application Engineer",
+      "web": "www.richardsonrfpd.com",
+      "ulke": "Munich, Germany",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: Senior IoT Field Application Engineer | Kaynak: doc07186420260617164728.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Temperaturmeßtechnik Geraberg GmbH",
+      "kisi": "Firma kartı",
+      "email": "tmg@temperatur.com; cg@schweitzer-messtechnik.de",
+      "unvan": "Firma kartı; High Stability Industrial Pressure Sensor",
+      "web": "www.temperatur.com",
+      "ulke": "Martinroda, Germany",
+      "kategori": "Uretici",
+      "talep": "Web: www.temperatur.com.; Web: www.amphenolsensors.com.; Web: www.wtsensor.com.",
+      "notlar": "Kaynak: doc07186520260617165106.pdf | Ünvan: Firma kartı | Kaynak: doc07188820260617172523.pdf | Ünvan: High Stability Industrial Pressure Sensor | Kaynak: doc07189220260617173049.pdf | Kaynak: doc07189620260617173511.pdf",
+      "segmentler": [
+        "Basinc Sensorleri"
+      ]
+    },
+    {
+      "firma": "COTEMP",
+      "kisi": "Guillaume Fèvre",
+      "email": "guillaume.fevre@correge.fr",
+      "unvan": "Directeur Général",
+      "web": "www.correge.fr",
+      "ulke": "Pacy-sur-Eure, France",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Directeur Général | Kaynak: doc07186520260617165106.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "REISSMANN Sensortechnik GmbH",
+      "kisi": "Markus Storz",
+      "email": "m.storz@reissmann.com",
+      "unvan": "Geschäftsführender Gesellschafter",
+      "web": "www.bluetest.eu; www.hr-dive.com.sg; www.picolas.de; www.reissmann.com",
+      "ulke": "Rosengarten-Uttenhofen, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Geschäftsführender Gesellschafter | Kaynak: doc07186520260617165106.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Sindlhauser Materials GmbH",
+      "kisi": "Uwe Wicklein",
+      "email": "wicklein@sindlhauser.de",
+      "unvan": "Sales Manager Targets",
+      "web": "www.sindlhauser.de",
+      "ulke": "Kempten, Germany",
+      "kategori": "Uretici",
+      "talep": "PVD/sputter prosesi.",
+      "notlar": "Ünvan: Sales Manager Targets | Kaynak: doc07186820260617165348.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "WH Elektronik und Wickeltechnik GmbH",
+      "kisi": "Hatem Monser",
+      "email": "hatem.monser@wh-elektronik.com",
+      "unvan": "Vertrieb",
+      "web": "www.wh-elektronik.com",
+      "ulke": "Oelsnitz/Erzgebirge, Germany",
+      "kategori": "Uretici",
+      "talep": "Kablo satıyor.",
+      "notlar": "Ünvan: Vertrieb | Kaynak: doc07186820260617165348.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Elite Instruments Pte. Ltd.",
+      "kisi": "S. N. Reddy",
+      "email": "snreddy@elite-instruments.com",
+      "unvan": "Managing Director",
+      "web": "WeChat: smartreddy092; web: www.elite-instruments.com.",
+      "ulke": "Singapore",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: Managing Director | Kaynak: doc07186920260617165726.pdf | WeChat: smartreddy092; web: www.elite-instruments.com.",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Oizom",
+      "kisi": "Shridatt Dudhat",
+      "email": "shridatt@oizom.com",
+      "unvan": "Head of R&D",
+      "web": "www.oizom.com",
+      "ulke": "India",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Head of R&D | Kaynak: doc07186920260617165726.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "BBSI Systems Private Limited",
+      "kisi": "Partho Tokdar",
+      "email": "partho.t@bbsint.com",
+      "unvan": "",
+      "web": "www.bbsint.com",
+      "ulke": "Bangalore, India",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Kaynak: doc07186920260617165726.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Ambetronics Engineers Pvt. Ltd.",
+      "kisi": "Rohit Ghatkar",
+      "email": "rnd3@ambetronics.com",
+      "unvan": "Sr. Engineer - R&D",
+      "web": "www.ambetronics.com",
+      "ulke": "Mumbai, India",
+      "kategori": "Uretici",
+      "talep": "Kullanıyorlar; ilgili.",
+      "notlar": "Ünvan: Sr. Engineer - R&D | Kaynak: doc07186920260617165726.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "YAGEO / YAGEO Nexensos",
+      "kisi": "Mehmet Koca",
+      "email": "mehmet.koca@yageo.com",
+      "unvan": "Regional Product Manager",
+      "web": "www.pcbpiezotronics.com; www.yageo.com",
+      "ulke": "Kleinostheim, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Regional Product Manager | Kaynak: doc07188820260617172523.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "YAGEO / YAGEO Nexensos",
+      "kisi": "Govinda Ahuja",
+      "email": "govinda.ahuja@yageo.com",
+      "unvan": "Head of Strategy and BD",
+      "web": "www.yageo.com",
+      "ulke": "Kleinostheim, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Head of Strategy and BD | Kaynak: doc07188820260617172523.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "SENSIT s.r.o.",
+      "kisi": "Lukáš Orság",
+      "email": "orsag@sensit.cz",
+      "unvan": "Product Manager",
+      "web": "www.sensit.cz",
+      "ulke": "Rožnov pod Radhoštěm, Czech Republic",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Product Manager | Kaynak: doc07188820260617172523.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "SENSIT s.r.o.",
+      "kisi": "Anna Vondráček Janíková",
+      "email": "vondracek@sensit.cz",
+      "unvan": "Strategic Purchasing",
+      "web": "www.sensit.cz",
+      "ulke": "Rožnov pod Radhoštěm, Czech Republic",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Strategic Purchasing | Kaynak: doc07188820260617172523.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "TTI Elektronik Ticaret Ltd. Şti.",
+      "kisi": "Gamze Kırmacı Aytaçlı",
+      "email": "gamzekirmaci.aytacli@tr.ttinc.com",
+      "unvan": "Inside Sales Manager",
+      "web": "www.ttinc.com",
+      "ulke": "İstanbul, Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: Inside Sales Manager | Kaynak: doc07188820260617172523.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "KOSYKA, s.r.o.",
+      "kisi": "Dominik Man",
+      "email": "dominik.man@kosyka.cz",
+      "unvan": "BDM",
+      "web": "www.kosyka.cz",
+      "ulke": "Jihlava, Czech Republic",
+      "kategori": "Distributor",
+      "talep": "Packaging satıyor.",
+      "notlar": "Ünvan: BDM | Kaynak: doc07188820260617172523.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Saveway GmbH & Co. KG",
+      "kisi": "János Major",
+      "email": "j.major@saveway-germany.de",
+      "unvan": "Service",
+      "web": "www.saveway-germany.de",
+      "ulke": "Ilmenau, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Service | Kaynak: doc07188820260617172523.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Measuring & Control / MAC",
+      "kisi": "Mohamed Radwan",
+      "email": "m.radwan@mac-itd.co",
+      "unvan": "Projects Manager",
+      "web": "170 Tamom St., Hadaik El-Ahram, Giza, Egypt; www.mac-itd.co",
+      "ulke": "Giza, Egypt",
+      "kategori": "Uretici",
+      "talep": "Adres: 170 Tamom St., Hadaik El-Ahram.",
+      "notlar": "Ünvan: Projects Manager | Kaynak: doc07188920260617172727.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "MicroStep-MIS",
+      "kisi": "Adam Krovina",
+      "email": "adam.krovina@microstep-mis.com",
+      "unvan": "Calibration Systems Product Owner",
+      "web": "www.microstep-mis.com",
+      "ulke": "Bratislava, Slovak Republic",
+      "kategori": "Uretici",
+      "talep": "PT100 Best class samples & Pricing.",
+      "notlar": "Ünvan: Calibration Systems Product Owner | Kaynak: doc07188920260617172727.pdf",
+      "segmentler": [
+        "Pt100"
+      ]
+    },
+    {
+      "firma": "SITEX 45",
+      "kisi": "Dumitru Ulieru",
+      "email": "ulierud@yahoo.com",
+      "unvan": "R & D Director",
+      "web": "",
+      "ulke": "Bucharest, Romania",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: R & D Director | Kaynak: doc07188920260617172727.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Magnum Products & Services FZE",
+      "kisi": "Anand Kekre",
+      "email": "akekre@gmail.com",
+      "unvan": "Managing Director",
+      "web": "www.magnum-ps.com",
+      "ulke": "Sharjah, U.A.E.",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: Managing Director | Kaynak: doc07188920260617172727.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "iESLab Europe S.r.l",
+      "kisi": "Carlo Rebughini",
+      "email": "carlo.rebughini@qd-ies.com",
+      "unvan": "Executive VP",
+      "web": "www.qd-ies.com",
+      "ulke": "Granarolo dell'Emilia/Macherio, Italy",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Executive VP | Kaynak: doc07188920260617172727.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "iESLab Europe S.r.l",
+      "kisi": "Georg Jedelhauser",
+      "email": "georg.jedelhauser@qd-ies.com",
+      "unvan": "CEO",
+      "web": "www.qd-ies.com",
+      "ulke": "Granarolo dell'Emilia/Macherio, Italy",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: CEO | Kaynak: doc07188920260617172727.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Baoji XingYuTeng Measure and Control Instruments Co., Ltd.",
+      "kisi": "Lucas Zhang",
+      "email": "henryxing@xytck.com",
+      "unvan": "Sales Engineer",
+      "web": "www.sensor-technology.com.br; www.xytck.com",
+      "ulke": "Baoji, Shaanxi, China",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Sales Engineer | Kaynak: doc07188920260617172727.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Shenzhen Keenyoda Technologies Co., Ltd.",
+      "kisi": "Joe Xiong",
+      "email": "joexiong@keenyoda.com",
+      "unvan": "General Manager",
+      "web": "www.keenyoda.com",
+      "ulke": "Shenzhen, China",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: General Manager | Kaynak: doc07188920260617172727.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Rizhao Xuri Electronics Co., Ltd.",
+      "kisi": "Yang Yong",
+      "email": "yangyong@rzxr.com",
+      "unvan": "Marketing Manager",
+      "web": "www.rzxr.com",
+      "ulke": "Rizhao, Shandong, China",
+      "kategori": "Uretici",
+      "talep": "Pressure sensor base, HTCC, laser packages.",
+      "notlar": "Ünvan: Marketing Manager | Kaynak: doc07188920260617172727.pdf",
+      "segmentler": [
+        "Basinc Sensorleri"
+      ]
+    },
+    {
+      "firma": "BOCON / Nanjing Bocon Science & Technology Co., Ltd.",
+      "kisi": "Helen / Li Wei",
+      "email": "wei_li_nanjing@bocondalian.com",
+      "unvan": "Overseas Sales",
+      "web": "www.bocon-sensor.com",
+      "ulke": "Nanjing/Dalian, China",
+      "kategori": "Uretici",
+      "talep": "Web: www.bocon-sensor.com.",
+      "notlar": "Ünvan: Overseas Sales | Kaynak: doc07188920260617172727.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Özdisan",
+      "kisi": "Abdülkadir Doğan",
+      "email": "adogan@ozdisan.com",
+      "unvan": "Military Project Dept. Sales Specialist",
+      "web": "www.ozdisan.com",
+      "ulke": "Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: Military Project Dept. Sales Specialist | Kaynak: doc07189220260617173049.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Özdisan",
+      "kisi": "Ünal Yurttaş",
+      "email": "uyurttas@ozdisan.com",
+      "unvan": "Export Sales Specialist",
+      "web": "www.ozdisan.com",
+      "ulke": "Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: Export Sales Specialist | Kaynak: doc07189220260617173049.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Özdisan",
+      "kisi": "Ahmet Deniz Atalay",
+      "email": "datalay@ozdisan.com",
+      "unvan": "High Technology Project Deputy Manager",
+      "web": "www.ozdisan.com",
+      "ulke": "Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: High Technology Project Deputy Manager | Kaynak: doc07189220260617173049.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Özdisan",
+      "kisi": "Yağız Kaan Abdi",
+      "email": "yabdi@ozdisan.com",
+      "unvan": "HT Project Sales Assistant Specialist",
+      "web": "www.ozdisan.com",
+      "ulke": "Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: HT Project Sales Assistant Specialist | Kaynak: doc07189220260617173049.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Focus Sigorta",
+      "kisi": "Sema Şişman",
+      "email": "info@focus-sigorta.com",
+      "unvan": "Sigorta Yöneticisi",
+      "web": "www.focus-sigorta.com",
+      "ulke": "İstanbul, Türkiye",
+      "kategori": "Servis/Hizmet",
+      "talep": "",
+      "notlar": "Ünvan: Sigorta Yöneticisi | Kaynak: doc07189220260617173049.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Arrow Electronics",
+      "kisi": "Taner Ekal",
+      "email": "taner.ekal@arrow.com",
+      "unvan": "Sr. Application Engineer (ESC-Power)",
+      "web": "www.arrow.com",
+      "ulke": "İstanbul, Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: Sr. Application Engineer (ESC-Power) | Kaynak: doc07189220260617173049.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Dimac Red S.p.A.",
+      "kisi": "Daniele Viganò",
+      "email": "d.vigano@dimacred.com",
+      "unvan": "Sales Coordinator",
+      "web": "www.dimacred.com",
+      "ulke": "Biassono (MB), Italy",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Sales Coordinator | Kaynak: doc07189220260617173049.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Dimac Red S.p.A.",
+      "kisi": "Ferdi Arslan",
+      "email": "f.arslan@dimacred.com",
+      "unvan": "BDM, Eastern Mediterranean",
+      "web": "www.dimacred.com",
+      "ulke": "Biassono (MB), Italy / Türkiye",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: BDM, Eastern Mediterranean | Kaynak: doc07189220260617173049.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "DynaLabs",
+      "kisi": "Ece Gültekin",
+      "email": "egultekin@dynalabs.com.tr",
+      "unvan": "Sales Engineer",
+      "web": "www.dynalabs.com.tr",
+      "ulke": "Ankara, Türkiye",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Sales Engineer | Kaynak: doc07189320260617173210.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "DynaLabs",
+      "kisi": "Canan Karadeniz",
+      "email": "ckaradeniz@dynalabs.com.tr",
+      "unvan": "General Manager",
+      "web": "www.dynalabs.com.tr",
+      "ulke": "Ankara, Türkiye",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: General Manager | Kaynak: doc07189320260617173210.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Embeddora Technologies LLC",
+      "kisi": "Konstantin Mauch",
+      "email": "konstantin.mauch@embeddora.com",
+      "unvan": "CTO / Software Architect",
+      "web": "www.embeddora.com",
+      "ulke": "Riedlingen, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: CTO / Software Architect | Kaynak: doc07189320260617173210.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Kurz Elektronik GmbH",
+      "kisi": "Eric Burger",
+      "email": "eric.burger@kurzelektronik.de",
+      "unvan": "Vertriebsleiter",
+      "web": "www.kurzelektronik.de",
+      "ulke": "Althengstett, Germany",
+      "kategori": "Distributor",
+      "talep": "Şu an ihtiyaç yok; doküman istiyor.",
+      "notlar": "Ünvan: Vertriebsleiter | Kaynak: doc07189320260617173210.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Technovation Steiner Engineering Office",
+      "kisi": "Viktor Steiner",
+      "email": "info@technovation-s.de",
+      "unvan": "Innovation/Technology/IP Mgmt",
+      "web": "www.technovation-s.de",
+      "ulke": "Tuttlingen, Germany",
+      "kategori": "Servis/Hizmet",
+      "talep": "",
+      "notlar": "Ünvan: Innovation/Technology/IP Mgmt | Kaynak: doc07189320260617173210.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Melexis",
+      "kisi": "Andreas Städler",
+      "email": "aej@melexis.com",
+      "unvan": "Account Manager - Automotive",
+      "web": "www.heraeus.com; www.melexis.com",
+      "ulke": "Erfurt/Erlangen, Germany",
+      "kategori": "Uretici",
+      "talep": "MLX 90342.",
+      "notlar": "Ünvan: Account Manager - Automotive | Kaynak: doc07189320260617173210.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Feyzus",
+      "kisi": "Muhammet Mustafa Kaya",
+      "email": "muhammet.kaya@feyzus.com",
+      "unvan": "Founder",
+      "web": "www.feyzus.com",
+      "ulke": "Ankara, Türkiye",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Founder | Kaynak: doc07189320260617173210.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Forcebit",
+      "kisi": "Emin Oguz İnci",
+      "email": "emin@forcebit.eu",
+      "unvan": "Head of Software",
+      "web": "www.forcebit.eu",
+      "ulke": "EU/Belgium",
+      "kategori": "Uretici",
+      "talep": "Akselerasyon/Belçika.",
+      "notlar": "Ünvan: Head of Software | Kaynak: doc07189320260617173210.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "TEKOM",
+      "kisi": "Fatih Köse",
+      "email": "fatih@tekom.com.tr",
+      "unvan": "Teknik Müdür",
+      "web": "www.tekom.com.tr; www.vippulse.com",
+      "ulke": "Kartepe/Kocaeli, Türkiye",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Teknik Müdür | Kaynak: doc07189420260617173343.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Bremer Sensor Solutions",
+      "kisi": "Kort Bremer",
+      "email": "kb@bsens.de",
+      "unvan": "",
+      "web": "www.bsens.de",
+      "ulke": "Schneverdingen, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Kaynak: doc07189420260617173343.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "VOGT GmbH",
+      "kisi": "Gerald Vogt",
+      "email": "g.vogt@vogt-ceramic.de",
+      "unvan": "Geschäftsführer / CEO",
+      "web": "www.vogt-ceramic.de",
+      "ulke": "Henfenfeld, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Geschäftsführer / CEO | Kaynak: doc07189420260617173343.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Accumula Energy",
+      "kisi": "Oliver González",
+      "email": "oliver.gonzalez@accumulaenergy.com",
+      "unvan": "Engineer",
+      "web": "www.accumulaenergy.com",
+      "ulke": "Spain",
+      "kategori": "Uretici",
+      "talep": "Aynı kablo üzerinde NTC talebi.",
+      "notlar": "Ünvan: Engineer | Kaynak: doc07189420260617173343.pdf",
+      "segmentler": [
+        "Termistorler"
+      ]
+    },
+    {
+      "firma": "SAB Bröckskes GmbH & Co. KG",
+      "kisi": "Stefan Kiesel",
+      "email": "s.kiesel@sab-cable.com",
+      "unvan": "Gebietsleiter Außendienst Süd/Österreich",
+      "web": "www.man.eu; www.sab-cable.com",
+      "ulke": "Siegsdorf-Hammer, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Gebietsleiter Außendienst Süd/Österreich | Kaynak: doc07189420260617173343.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "PI Ceramic GmbH",
+      "kisi": "Sandra Niederschuh",
+      "email": "s.niederschuh@piceramic.de",
+      "unvan": "Product Marketing Manager Piezo Tech.",
+      "web": "www.piceramic.de",
+      "ulke": "Lederhose, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Product Marketing Manager Piezo Tech. | Kaynak: doc07189420260617173343.pdf; doc07189720260617173627.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "digid GmbH",
+      "kisi": "Malte Köhler",
+      "email": "mko@digid.com",
+      "unvan": "Head of Technologies",
+      "web": "www.digid.com",
+      "ulke": "Mainz, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Head of Technologies | Kaynak: doc07189420260617173343.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Synergie CAD PSC",
+      "kisi": "Philippe Laban",
+      "email": "p.laban@synergie-cad.fr",
+      "unvan": "General Manager",
+      "web": "Neuheimstrasse 12, CH-8853 Lachen, Switzerland; www.novasina.ch; www.synergie-cad.fr",
+      "ulke": "Toulouse/Colombe, France",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: General Manager | Kaynak: doc07189420260617173343.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Stork Elektronik",
+      "kisi": "Peter Stork",
+      "email": "info@stork-elektronik.de",
+      "unvan": "Geschäftsführer",
+      "web": "www.stork-elektronik.de",
+      "ulke": "Rosenheim, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Geschäftsführer | Kaynak: doc07189420260617173343.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Special Kabel GmbH / Special Engineering",
+      "kisi": "Reshad Raquib",
+      "email": "info@skv-kabel.de",
+      "unvan": "Geschäftsführer",
+      "web": "www.skv-kabel.de",
+      "ulke": "Simmerath/Aachen, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Geschäftsführer | Kaynak: doc07189620260617173511.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "innovatek",
+      "kisi": "Lucas Bahle",
+      "email": "Bahle@innovatek.de",
+      "unvan": "Technische Entwicklung",
+      "web": "www.sensor-technology.com.br; www.xytck.com",
+      "ulke": "Stammham, Germany",
+      "kategori": "Uretici",
+      "talep": "PT100/PT1000; 400°C; araştırma/proje.",
+      "notlar": "Ünvan: Technische Entwicklung | Kaynak: doc07189620260617173511.pdf",
+      "segmentler": [
+        "Pt100",
+        "Pt1000"
+      ]
+    },
+    {
+      "firma": "Insenso GmbH",
+      "kisi": "Robert Zyrus",
+      "email": "robert.zyrus@insenso.de",
+      "unvan": "Director Technology",
+      "web": "www.amphenol-sensors.com; www.insenso.de",
+      "ulke": "Berlin, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Director Technology | Kaynak: doc07189620260617173511.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Hochschule Coburg / ISAT",
+      "kisi": "Klaus Stefan Drese",
+      "email": "klaus.drese@hs-coburg.de",
+      "unvan": "Institutsleiter",
+      "web": "www.hs-coburg.de",
+      "ulke": "Coburg, Germany",
+      "kategori": "Ar-Ge/Egitim",
+      "talep": "",
+      "notlar": "Ünvan: Institutsleiter | Kaynak: doc07189620260617173511.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "TESTEM GmbH",
+      "kisi": "Rudolf Beck",
+      "email": "rudolf.beck@testem.de",
+      "unvan": "General Manager",
+      "web": "www.testem.de",
+      "ulke": "Alling OT Hoflach, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: General Manager | Kaynak: doc07189620260617173511.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "imca",
+      "kisi": "Alp Eren Bağcı",
+      "email": "alp.bagci@imca.com.tr",
+      "unvan": "Field Sales Engineer",
+      "web": "www.imca.com.tr",
+      "ulke": "Ankara/İstanbul, Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: Field Sales Engineer | Kaynak: doc07189620260617173511.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "LCP Laser-Cut-Processing GmbH",
+      "kisi": "Antje Oßmann",
+      "email": "vertrieb@lcpgmbh.de",
+      "unvan": "Head of Sales",
+      "web": "www.lcpgmbh.de",
+      "ulke": "Hermsdorf, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Head of Sales | Kaynak: doc07189620260617173511.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Baumer Electric AG",
+      "kisi": "Franck Ferrarese",
+      "email": "fferrarese@baumer.com",
+      "unvan": "Head of BU Process Sensors",
+      "web": "www.baumer.com",
+      "ulke": "Frauenfeld, Switzerland",
+      "kategori": "Uretici",
+      "talep": "Pharma; high speed; PT100/1000.",
+      "notlar": "Ünvan: Head of BU Process Sensors | Kaynak: doc07189620260617173511.pdf",
+      "segmentler": [
+        "Pt100"
+      ]
+    },
+    {
+      "firma": "RECOM Recycling GmbH",
+      "kisi": "Tanju Isikci",
+      "email": "tanju.isikci@recomgmbh.com",
+      "unvan": "Sales",
+      "web": "www.recomgmbh.com",
+      "ulke": "Aschaffenburg, Germany",
+      "kategori": "Servis/Hizmet",
+      "talep": "",
+      "notlar": "Ünvan: Sales | Kaynak: doc07189620260617173511.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "ALLENGRA Flowmeters",
+      "kisi": "Thomas Oniță",
+      "email": "thomas.onita@allengra.eu",
+      "unvan": "Project Manager",
+      "web": "www.allengra.eu",
+      "ulke": "Ravenstein, Germany",
+      "kategori": "Uretici",
+      "talep": "PT1000; fiyat verildi; 1000 adet.",
+      "notlar": "Ünvan: Project Manager | Kaynak: doc07189720260617173627.pdf",
+      "segmentler": [
+        "Pt100",
+        "Pt1000"
+      ]
+    },
+    {
+      "firma": "WAREMA Renkhoff SE",
+      "kisi": "Sebastian Möhres",
+      "email": "sebastian.moehres@warema.de",
+      "unvan": "Entwicklung Steuerungssysteme Hardware",
+      "web": "www.warema.de",
+      "ulke": "Marktheidenfeld, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Entwicklung Steuerungssysteme Hardware | Kaynak: doc07189720260617173627.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "MAN Truck & Bus AG",
+      "kisi": "Stefan Jaik",
+      "email": "stefan.jaik@man.eu",
+      "unvan": "Team Leader Special Measurement",
+      "web": "www.man.eu; www.sab-cable.com",
+      "ulke": "Nürnberg, Germany",
+      "kategori": "Uretici",
+      "talep": "Electric trucks; Lemo Redel kablolu sensör.",
+      "notlar": "Ünvan: Team Leader Special Measurement | Kaynak: doc07189720260617173627.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "TAPROGGE Gesellschaft mbH",
+      "kisi": "Mario Arnold",
+      "email": "mario.arnold@taprogge.de",
+      "unvan": "Development Engineer",
+      "web": "www.sensry.de; www.taprogge.de",
+      "ulke": "Wetter, Germany",
+      "kategori": "Uretici",
+      "talep": "Data loggerlı swimming sensor; 15mm; cooling.",
+      "notlar": "Ünvan: Development Engineer | Kaynak: doc07189720260617173627.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Enplas (Europe) Limited",
+      "kisi": "Jim Ballesty",
+      "email": "j-ballesty@enplas.com",
+      "unvan": "General Manager",
+      "web": "www.enplas.com",
+      "ulke": "Newport Pagnell, UK",
+      "kategori": "Uretici",
+      "talep": "Radio wave sensors.",
+      "notlar": "Ünvan: General Manager | Kaynak: doc07189720260617173627.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "PicoLAS GmbH",
+      "kisi": "Markus Bartram",
+      "email": "m.bartram@picolas.de",
+      "unvan": "CEO",
+      "web": "www.bluetest.eu; www.hr-dive.com.sg; www.picolas.de; www.reissmann.com",
+      "ulke": "Würselen, Germany",
+      "kategori": "Uretici",
+      "talep": "PT100/PT1000 sample aldı.",
+      "notlar": "Ünvan: CEO | Kaynak: doc07189720260617173627.pdf",
+      "segmentler": [
+        "Pt100",
+        "Pt1000"
+      ]
+    },
+    {
+      "firma": "Baumer Electric AG",
+      "kisi": "Martin Leupold",
+      "email": "mleupold@baumer.com",
+      "unvan": "Strategic Product Manager Process Sensors",
+      "web": "www.baumer.com; www.gfg-safety.de; www.sika.net",
+      "ulke": "Frauenfeld, Switzerland",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Strategic Product Manager Process Sensors | Kaynak: doc07189720260617173627.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Amphenol Thermometrics (UK) Ltd.",
+      "kisi": "Robert Twiney",
+      "email": "robert.twiney@amphenol-sensors.com",
+      "unvan": "Technology Expert - Sensors",
+      "web": "www.amphenol-sensors.com; www.insenso.de",
+      "ulke": "Taunton, Somerset, UK",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Technology Expert - Sensors | Kaynak: doc07189720260617173627.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "E-Kom / e-komponent",
+      "kisi": "Helin Aykal",
+      "email": "helin.aykal@e-kom.com",
+      "unvan": "Field Sales Engineer",
+      "web": "Beylikdüzü OSB Mah. Hürriyet Blv. ASF-BATI Plaza No:10 D:9, 34524 Beylikdüzü / İstanbul; Ankara Ofis: Tepe Prime İş ve Yaşam Merkezi C-Blok No:64 Çankaya / Ankara; www.e-kom.com",
+      "ulke": "İstanbul/Ankara, Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: Field Sales Engineer | Kaynak: doc07189820260617173958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "E-Kom / e-komponent",
+      "kisi": "Mustafa Semih Sapmaz",
+      "email": "mustafa.sapmaz@e-kom.com",
+      "unvan": "BDM",
+      "web": "Beylikdüzü OSB Mah. Hürriyet Blv. ASF-BATI Plaza No:10 D:9, 34524 Beylikdüzü / İstanbul; Ankara Ofis: Tepe Prime İş ve Yaşam Merkezi C-Blok No:64 Çankaya / Ankara; www.e-kom.com",
+      "ulke": "İstanbul/Ankara, Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: BDM | Kaynak: doc07189820260617173958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "E-Kom / e-komponent",
+      "kisi": "Hülya Şahin",
+      "email": "hulya.sahin@e-kom.com",
+      "unvan": "General Manager",
+      "web": "Beylikdüzü OSB Mah. Hürriyet Blv. ASF-BATI Plaza No:10 D:9, 34524 Beylikdüzü / İstanbul; Ankara Ofis: Tepe Prime İş ve Yaşam Merkezi C-Blok No:64 Çankaya / Ankara; www.e-kom.com",
+      "ulke": "İstanbul/Ankara, Türkiye",
+      "kategori": "Distributor",
+      "talep": "",
+      "notlar": "Ünvan: General Manager | Kaynak: doc07189820260617173958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "V-ZUG AG",
+      "kisi": "Marc Hoffmann",
+      "email": "marc.hoffmann@vzug.com",
+      "unvan": "Teamleiter Elektronik",
+      "web": "Industriestrasse 66, CH-6302 Zug, Switzerland; www.vzug.com; www.sab-cable.com",
+      "ulke": "Zug, Switzerland",
+      "kategori": "Uretici",
+      "talep": "Dryer/oven için NTC; PT100.",
+      "notlar": "Ünvan: Teamleiter Elektronik | Kaynak: doc07189820260617173958.pdf",
+      "segmentler": [
+        "Pt100",
+        "Termistorler"
+      ]
+    },
+    {
+      "firma": "Inter Control / Hermann Köhler Elektrik GmbH & Co. KG",
+      "kisi": "Hermann G. Köhler",
+      "email": "H.G.Koehler@intercontrol.de",
+      "unvan": "CEO",
+      "web": "Schafhofstraße 30, 90411 Nürnberg, Germany; www.intercontrol.de",
+      "ulke": "Nürnberg, Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: CEO | Kaynak: doc07189820260617173958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "TAIPRO Engineering",
+      "kisi": "Alexis Kozlowski",
+      "email": "a.kozlowski@taipro.be",
+      "unvan": "Project Engineer",
+      "web": "Rue des Ormes 151, 4800 Lambermont, Belgium; www.taipro.be",
+      "ulke": "Lambermont, Belgium",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Project Engineer | Kaynak: doc07189820260617173958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Novasina AG",
+      "kisi": "Philippe Trösch",
+      "email": "philippe.troesch@novasina.ch",
+      "unvan": "Sales & Marketing Director",
+      "web": "Neuheimstrasse 12, CH-8853 Lachen, Switzerland; www.novasina.ch; www.synergie-cad.fr",
+      "ulke": "Lachen, Switzerland",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Sales & Marketing Director | Kaynak: doc07189820260617173958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "MARK Metallwarenfabrik GmbH",
+      "kisi": "Bernd Matlschweiger",
+      "email": "b.matlschweiger@mark.at",
+      "unvan": "R&D",
+      "web": "Gleinkerau 23, 4582 Spital am Pyhrn, Austria; www.mark.at",
+      "ulke": "Spital am Pyhrn, Austria",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: R&D | Kaynak: doc07189820260617173958.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "AZoNetwork UK Ltd. / News-Medical",
+      "kisi": "Matt Pullen",
+      "email": "mattpullen@azonetwork.com",
+      "unvan": "Digital Marketing Consultant",
+      "web": "www.azonetwork.com",
+      "ulke": "Manchester, UK",
+      "kategori": "Medya/Organizasyon",
+      "talep": "10k€/yıl.",
+      "notlar": "Ünvan: Digital Marketing Consultant | Kaynak: doc07189920260617174141.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Nanjing GOVA Technology Co., Ltd.",
+      "kisi": "Jason Yao",
+      "email": "jason.yao@govagroup.com",
+      "unvan": "Global Business Manager",
+      "web": "www.govagroup.com",
+      "ulke": "Nanjing, China",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Ünvan: Global Business Manager | Kaynak: doc07189920260617174141.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Proterm Enerji Sanayi ve Ticaret A.Ş.",
+      "kisi": "Bahadır Aksu",
+      "email": "baksu@protermenerji.com",
+      "unvan": "Engineering & Design Manager",
+      "web": "www.protermenerji.com",
+      "ulke": "Ankara, Türkiye",
+      "kategori": "Uretici",
+      "talep": "Workshop.",
+      "notlar": "Ünvan: Engineering & Design Manager | Kaynak: doc07189920260617174141.pdf",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Deutscher Wetterdienst",
+      "kisi": "Karsten Schubotz",
+      "email": "Karsten.Schubotz@dwd.de",
+      "unvan": "Referat Messsysteme",
+      "web": "www.dwd.de",
+      "ulke": "Hamburg, Germany",
+      "kategori": "Ar-Ge/Egitim",
+      "talep": "PT1000; detay gönderecek.",
+      "notlar": "Ünvan: Referat Messsysteme | Kaynak: doc07189920260617174141.pdf",
+      "segmentler": [
+        "Pt100",
+        "Pt1000"
+      ]
+    },
+    {
+      "firma": "Schweitzer Messtechnik GmbH & Co. KG",
+      "kisi": "-",
+      "email": "",
+      "unvan": "-",
+      "web": "www.schweitzer-messtechnik.de",
+      "ulke": "Germany",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Kaynak: 134 kaynak sayfası, Satır 2 Sol",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "WTsensor / Nanjing Wotian Technology Co., Ltd.",
+      "kisi": "-",
+      "email": "",
+      "unvan": "-",
+      "web": "www.wtsensor.com",
+      "ulke": "China",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Kaynak: 109 kaynak sayfası, Satır 4 Sol",
+      "segmentler": [
+        "Genel"
+      ]
+    },
+    {
+      "firma": "Amphenol Sensors",
+      "kisi": "-",
+      "email": "",
+      "unvan": "-",
+      "web": "www.amphenolsensors.com",
+      "ulke": "USA",
+      "kategori": "Uretici",
+      "talep": "",
+      "notlar": "Kaynak: 092 kaynak sayfası, Satır 2 Sağ (pazarlama kartı)",
+      "segmentler": [
+        "Genel"
+      ]
+    }
+  ]
+}
