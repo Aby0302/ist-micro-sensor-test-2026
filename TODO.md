@@ -130,3 +130,10 @@
   - Haftada bir (Pazartesi 08:00) istmicro.com'u tarar
   - Meta bilgilerini çıkarır, bilgi bazını otomatik günceller
   - Site erişilemezse mevcut bilgi bazını korur
+- [x] Pazarlama otomasyonu için e-posta şablonları API'ye yüklendi. (6 şablon, ID 1-6)
+- [x] Remote veritabanında Meetings tablosu oluşturuldu. (schema: alazliko_admin)
+- [x] Pipeline aşamaları eklendi/güncellendi. (email_gonderildi, toplanti_planlandi, iletisim_kuruldu mevcut)
+- [x] 157 fuar kontağı Customers API üzerinden import edildi.
+- [x] Yeni n8n workflow'larını validate et ve oluştur. (mevcut workflow'lar güncellendi: Fqz1UAeqWhc7NVyT, T15vpmIPc7XIKcfd, TaWQQh2nVi3PJMzM)
+- [x] n8n workflow'larını test et ve publish et. (pin testleri başarılı; 3 workflow publish edildi)
+- [ ] Kod düzeltmelerini commit/push et. (status/diff/log kontrol edildi; commit sırada)

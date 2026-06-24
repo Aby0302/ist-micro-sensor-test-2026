@@ -30,7 +30,14 @@ def main():
     }
 
     for sablon in sablonlar:
-        data = json.dumps(sablon, ensure_ascii=False).encode("utf-8")
+        # Convert camelCase to snake_case for ASP.NET API
+        snake = {}
+        for k, v in sablon.items():
+            snake_key = ''.join(['_' + c.lower() if c.isupper() else c for c in k]).lstrip('_')
+            snake[snake_key] = v
+        if "campaigns" not in snake:
+            snake["campaigns"] = []
+        data = json.dumps(snake, ensure_ascii=False).encode("utf-8")
         req = urllib.request.Request(
             args.api_base,
             data=data,
